@@ -169,42 +169,45 @@ class SiameseNetwork:
     def _write_logs_to_tensorboard(
         self, current_iteration, train_losses, train_accuracies, validation_accuracy, evaluate_each
     ):
-        """Writes the logs to a tensorflow log file
+        """
+        Writes the logs to a TensorFlow log file for TensorBoard.
 
-        This allows us to see the loss curves and the metrics in tensorboard.
+        This allows us to see the loss curves and the metrics in TensorBoard.
         If we wrote every iteration, the training process would be slow, so
-        instead we write the logs every evaluate_each iteration.
+        instead, we write the logs every evaluate_each iterations.
 
         Arguments:
-            current_iteration: iteration to be written in the log file
-            train_losses: contains the train losses from the last evaluate_each
-                iterations.
-            train_accuracies: the same as train_losses but with the accuracies
-                in the training set.
-            validation_accuracy: accuracy in the current one-shot task in the
-                validation set
-            evaluate each: number of iterations defined to evaluate the one-shot
-                tasks.
+            current_iteration: iteration to be written in the log file.
+            train_losses: list of train losses from the last evaluate_each iterations.
+            train_accuracies: list of train accuracies from the last evaluate_each iterations.
+            validation_accuracy: accuracy in the current one-shot task in the validation set.
+            evaluate_each: number of iterations defined to evaluate the one-shot tasks.
         """
 
-        summary = tf.Summary()
+        # Use the summary writer (assumed to be set up in the class)
+        with self.summary_writer.as_default():
+            for index in range(evaluate_each):
+                # Write training loss
+                tf.summary.scalar(
+                    name="Train Loss", data=train_losses[index], step=current_iteration - evaluate_each + index + 1
+                )
 
-        # Write to log file the values from the last evaluate_every iterations
-        for index in range(0, evaluate_each):
-            value = summary.value.add()
-            value.simple_value = train_losses[index]
-            value.tag = "Train Loss"
+                # Write training accuracy
+                tf.summary.scalar(
+                    name="Train Accuracy",
+                    data=train_accuracies[index],
+                    step=current_iteration - evaluate_each + index + 1,
+                )
 
-            value = summary.value.add()
-            value.simple_value = train_accuracies[index]
-            value.tag = "Train Accuracy"
+                # Write validation accuracy at the last index of the evaluation period
+                if index == (evaluate_each - 1):
+                    tf.summary.scalar(
+                        name="One-Shot Validation Accuracy",
+                        data=validation_accuracy,
+                        step=current_iteration - evaluate_each + index + 1,
+                    )
 
-            if index == (evaluate_each - 1):
-                value = summary.value.add()
-                value.simple_value = validation_accuracy
-                value.tag = "One-Shot Validation Accuracy"
-
-            self.summary_writer.add_summary(summary, current_iteration - evaluate_each + index + 1)
+            # Ensure all logs are written
             self.summary_writer.flush()
 
     def train_siamese_network(
