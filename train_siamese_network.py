@@ -37,7 +37,7 @@ def main():
     momentum_slope = 0.01
     support_set_size = 20
     evaluate_each = 1000
-    number_of_train_iterations = 500
+    number_of_train_iterations = 1000000
 
     validation_accuracy = siamese_network.train_siamese_network(
         number_of_iterations=number_of_train_iterations,
