@@ -16,8 +16,8 @@ import os
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Train a Siamese network on the Omniglot dataset.")
     parser.add_argument("--cuda", action='store_true', default=True, help="Use CUDA.")
-    parser.add_argument("--train_path", type=str, default="/home/ubuntu/siamese-pytorch/omniglot/python/images_background", help="Training folder")
-    parser.add_argument("--test_path", type=str, default="/home/ubuntu/siamese-pytorch/omniglot/python/images_evaluation", help="Testing folder")
+    parser.add_argument("--train_path", type=str, default="/home/ubuntu/project/omniglot/python/images_background", help="Training folder")
+    parser.add_argument("--test_path", type=str, default="/home/ubuntu/project/omniglot/python/images_evaluation", help="Testing folder")
     parser.add_argument("--way", type=int, default=20, help="Number of classes for one-shot learning")
     parser.add_argument("--times", type=int, default=400, help="Number of samples to test accuracy")
     parser.add_argument("--workers", type=int, default=4, help="Number of data loader workers")
@@ -26,8 +26,8 @@ if __name__ == '__main__':
     parser.add_argument("--show_every", type=int, default=10, help="Show result every n iterations")
     parser.add_argument("--save_every", type=int, default=100, help="Save model every n iterations")
     parser.add_argument("--test_every", type=int, default=100, help="Test model every n iterations")
-    parser.add_argument("--max_iter", type=int, default=50000, help="Number of iterations before stopping")
-    parser.add_argument("--model_path", type=str, default="/home/ubuntu/siamese-pytorch/models", help="Path to store model")
+    parser.add_argument("--max_iter", type=int, default=250*50, help="Number of iterations before stopping")
+    parser.add_argument("--model_path", type=str, default="/home/ubuntu/project/models", help="Path to store model")
     parser.add_argument("--gpu_ids", type=str, default="0,1,2,3", help="Comma-separated list of GPU IDs to use")
 
     args = parser.parse_args()
@@ -36,6 +36,11 @@ if __name__ == '__main__':
         transforms.RandomAffine(15),
         transforms.ToTensor()
     ])
+
+    seed = 0
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu_ids
     print("use gpu:", args.gpu_ids, "to train.")
