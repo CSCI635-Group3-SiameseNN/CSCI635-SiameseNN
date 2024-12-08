@@ -1,0 +1,1632 @@
+use gpu: 0,1,2,3 to train.
+begin loading training dataset to memory
+finish loading training dataset to memory
+begin loading test dataset to memory
+finish loading test dataset to memory
+[10]	loss:	0.69008	time lapsed:	1.38 s
+[20]	loss:	0.65210	time lapsed:	0.87 s
+[30]	loss:	0.62965	time lapsed:	0.87 s
+[40]	loss:	0.60682	time lapsed:	0.87 s
+[50]	loss:	0.59272	time lapsed:	0.87 s
+[60]	loss:	0.60482	time lapsed:	0.87 s
+[70]	loss:	0.55997	time lapsed:	0.87 s
+[80]	loss:	0.55314	time lapsed:	0.87 s
+[90]	loss:	0.53953	time lapsed:	0.87 s
+[100]	loss:	0.54932	time lapsed:	0.87 s
+**********************************************************************
+[100]	Test set	correct:	63	error:	337	precision:	0.157500
+**********************************************************************
+[110]	loss:	0.52858	time lapsed:	4.49 s
+[120]	loss:	0.51252	time lapsed:	0.87 s
+[130]	loss:	0.54374	time lapsed:	0.87 s
+[140]	loss:	0.52933	time lapsed:	0.87 s
+[150]	loss:	0.50333	time lapsed:	0.87 s
+[160]	loss:	0.51307	time lapsed:	0.87 s
+[170]	loss:	0.50417	time lapsed:	0.88 s
+[180]	loss:	0.54178	time lapsed:	0.87 s
+[190]	loss:	0.49004	time lapsed:	0.87 s
+[200]	loss:	0.52195	time lapsed:	0.87 s
+**********************************************************************
+[200]	Test set	correct:	84	error:	316	precision:	0.210000
+**********************************************************************
+[210]	loss:	0.49579	time lapsed:	4.39 s
+[220]	loss:	0.47753	time lapsed:	0.87 s
+[230]	loss:	0.47110	time lapsed:	0.88 s
+[240]	loss:	0.48207	time lapsed:	0.88 s
+[250]	loss:	0.44655	time lapsed:	0.88 s
+[260]	loss:	0.49141	time lapsed:	0.88 s
+[270]	loss:	0.43997	time lapsed:	0.88 s
+[280]	loss:	0.44727	time lapsed:	0.88 s
+[290]	loss:	0.45865	time lapsed:	0.88 s
+[300]	loss:	0.41869	time lapsed:	0.88 s
+**********************************************************************
+[300]	Test set	correct:	94	error:	306	precision:	0.235000
+**********************************************************************
+[310]	loss:	0.43760	time lapsed:	4.48 s
+[320]	loss:	0.42663	time lapsed:	0.88 s
+[330]	loss:	0.43714	time lapsed:	0.88 s
+[340]	loss:	0.43123	time lapsed:	0.88 s
+[350]	loss:	0.42064	time lapsed:	0.88 s
+[360]	loss:	0.41086	time lapsed:	0.88 s
+[370]	loss:	0.40892	time lapsed:	0.88 s
+[380]	loss:	0.42889	time lapsed:	0.88 s
+[390]	loss:	0.42007	time lapsed:	0.88 s
+[400]	loss:	0.42447	time lapsed:	0.88 s
+**********************************************************************
+[400]	Test set	correct:	131	error:	269	precision:	0.327500
+**********************************************************************
+[410]	loss:	0.41842	time lapsed:	4.75 s
+[420]	loss:	0.41124	time lapsed:	0.88 s
+[430]	loss:	0.38054	time lapsed:	0.88 s
+[440]	loss:	0.42155	time lapsed:	0.88 s
+[450]	loss:	0.38379	time lapsed:	0.88 s
+[460]	loss:	0.38559	time lapsed:	0.88 s
+[470]	loss:	0.37491	time lapsed:	0.88 s
+[480]	loss:	0.37940	time lapsed:	0.88 s
+[490]	loss:	0.38977	time lapsed:	0.88 s
+[500]	loss:	0.41044	time lapsed:	0.88 s
+**********************************************************************
+[500]	Test set	correct:	127	error:	273	precision:	0.317500
+**********************************************************************
+[510]	loss:	0.40367	time lapsed:	4.52 s
+[520]	loss:	0.39491	time lapsed:	0.88 s
+[530]	loss:	0.40606	time lapsed:	0.88 s
+[540]	loss:	0.38636	time lapsed:	0.88 s
+[550]	loss:	0.39000	time lapsed:	0.89 s
+[560]	loss:	0.38591	time lapsed:	0.88 s
+[570]	loss:	0.39220	time lapsed:	0.89 s
+[580]	loss:	0.37182	time lapsed:	0.88 s
+[590]	loss:	0.37880	time lapsed:	0.88 s
+[600]	loss:	0.39231	time lapsed:	0.88 s
+**********************************************************************
+[600]	Test set	correct:	139	error:	261	precision:	0.347500
+**********************************************************************
+[610]	loss:	0.37447	time lapsed:	4.52 s
+[620]	loss:	0.35965	time lapsed:	0.88 s
+[630]	loss:	0.39508	time lapsed:	0.88 s
+[640]	loss:	0.39383	time lapsed:	0.88 s
+[650]	loss:	0.38116	time lapsed:	0.88 s
+[660]	loss:	0.34454	time lapsed:	0.88 s
+[670]	loss:	0.38072	time lapsed:	0.88 s
+[680]	loss:	0.36143	time lapsed:	0.88 s
+[690]	loss:	0.38664	time lapsed:	0.88 s
+[700]	loss:	0.38952	time lapsed:	0.88 s
+**********************************************************************
+[700]	Test set	correct:	156	error:	244	precision:	0.390000
+**********************************************************************
+[710]	loss:	0.39253	time lapsed:	4.44 s
+[720]	loss:	0.36777	time lapsed:	0.88 s
+[730]	loss:	0.37606	time lapsed:	0.88 s
+[740]	loss:	0.35308	time lapsed:	0.88 s
+[750]	loss:	0.38644	time lapsed:	0.88 s
+[760]	loss:	0.36267	time lapsed:	0.88 s
+[770]	loss:	0.34500	time lapsed:	0.89 s
+[780]	loss:	0.35327	time lapsed:	0.89 s
+[790]	loss:	0.36394	time lapsed:	0.88 s
+[800]	loss:	0.38241	time lapsed:	0.88 s
+**********************************************************************
+[800]	Test set	correct:	152	error:	248	precision:	0.380000
+**********************************************************************
+[810]	loss:	0.39502	time lapsed:	4.49 s
+[820]	loss:	0.35142	time lapsed:	0.88 s
+[830]	loss:	0.32975	time lapsed:	0.88 s
+[840]	loss:	0.32916	time lapsed:	0.88 s
+[850]	loss:	0.35811	time lapsed:	0.88 s
+[860]	loss:	0.33930	time lapsed:	0.88 s
+[870]	loss:	0.35731	time lapsed:	0.85 s
+[880]	loss:	0.33703	time lapsed:	0.81 s
+[890]	loss:	0.34382	time lapsed:	0.81 s
+[900]	loss:	0.33034	time lapsed:	0.81 s
+**********************************************************************
+[900]	Test set	correct:	170	error:	230	precision:	0.425000
+**********************************************************************
+[910]	loss:	0.36888	time lapsed:	4.19 s
+[920]	loss:	0.34533	time lapsed:	0.81 s
+[930]	loss:	0.33445	time lapsed:	0.81 s
+[940]	loss:	0.34539	time lapsed:	0.81 s
+[950]	loss:	0.33302	time lapsed:	0.81 s
+[960]	loss:	0.34848	time lapsed:	0.81 s
+[970]	loss:	0.33486	time lapsed:	0.81 s
+[980]	loss:	0.34753	time lapsed:	0.81 s
+[990]	loss:	0.35066	time lapsed:	0.81 s
+[1000]	loss:	0.35295	time lapsed:	0.81 s
+**********************************************************************
+[1000]	Test set	correct:	165	error:	235	precision:	0.412500
+**********************************************************************
+[1010]	loss:	0.33082	time lapsed:	4.20 s
+[1020]	loss:	0.31245	time lapsed:	0.81 s
+[1030]	loss:	0.33643	time lapsed:	0.81 s
+[1040]	loss:	0.31797	time lapsed:	0.81 s
+[1050]	loss:	0.33509	time lapsed:	0.81 s
+[1060]	loss:	0.34218	time lapsed:	0.81 s
+[1070]	loss:	0.32287	time lapsed:	0.81 s
+[1080]	loss:	0.31851	time lapsed:	0.81 s
+[1090]	loss:	0.33180	time lapsed:	0.81 s
+[1100]	loss:	0.29801	time lapsed:	0.86 s
+**********************************************************************
+[1100]	Test set	correct:	153	error:	247	precision:	0.382500
+**********************************************************************
+[1110]	loss:	0.29181	time lapsed:	4.43 s
+[1120]	loss:	0.30506	time lapsed:	0.88 s
+[1130]	loss:	0.33119	time lapsed:	0.89 s
+[1140]	loss:	0.31869	time lapsed:	0.89 s
+[1150]	loss:	0.29529	time lapsed:	0.89 s
+[1160]	loss:	0.32742	time lapsed:	0.89 s
+[1170]	loss:	0.31944	time lapsed:	0.88 s
+[1180]	loss:	0.30872	time lapsed:	0.88 s
+[1190]	loss:	0.30559	time lapsed:	0.88 s
+[1200]	loss:	0.30101	time lapsed:	0.88 s
+**********************************************************************
+[1200]	Test set	correct:	210	error:	190	precision:	0.525000
+**********************************************************************
+[1210]	loss:	0.26850	time lapsed:	4.45 s
+[1220]	loss:	0.26381	time lapsed:	0.88 s
+[1230]	loss:	0.29684	time lapsed:	0.88 s
+[1240]	loss:	0.29589	time lapsed:	0.88 s
+[1250]	loss:	0.30559	time lapsed:	0.88 s
+[1260]	loss:	0.27552	time lapsed:	0.89 s
+[1270]	loss:	0.30394	time lapsed:	0.88 s
+[1280]	loss:	0.30975	time lapsed:	0.88 s
+[1290]	loss:	0.26075	time lapsed:	0.88 s
+[1300]	loss:	0.27005	time lapsed:	0.88 s
+**********************************************************************
+[1300]	Test set	correct:	182	error:	218	precision:	0.455000
+**********************************************************************
+[1310]	loss:	0.27171	time lapsed:	4.44 s
+[1320]	loss:	0.27546	time lapsed:	0.88 s
+[1330]	loss:	0.27509	time lapsed:	0.88 s
+[1340]	loss:	0.31673	time lapsed:	0.88 s
+[1350]	loss:	0.27509	time lapsed:	0.88 s
+[1360]	loss:	0.26176	time lapsed:	0.88 s
+[1370]	loss:	0.29399	time lapsed:	0.88 s
+[1380]	loss:	0.26736	time lapsed:	0.88 s
+[1390]	loss:	0.25583	time lapsed:	0.88 s
+[1400]	loss:	0.26822	time lapsed:	0.88 s
+**********************************************************************
+[1400]	Test set	correct:	205	error:	195	precision:	0.512500
+**********************************************************************
+[1410]	loss:	0.27219	time lapsed:	4.45 s
+[1420]	loss:	0.26670	time lapsed:	0.88 s
+[1430]	loss:	0.29921	time lapsed:	0.88 s
+[1440]	loss:	0.29502	time lapsed:	0.88 s
+[1450]	loss:	0.23813	time lapsed:	0.88 s
+[1460]	loss:	0.28759	time lapsed:	0.88 s
+[1470]	loss:	0.28604	time lapsed:	0.89 s
+[1480]	loss:	0.26437	time lapsed:	0.88 s
+[1490]	loss:	0.26486	time lapsed:	0.88 s
+[1500]	loss:	0.27282	time lapsed:	0.88 s
+**********************************************************************
+[1500]	Test set	correct:	208	error:	192	precision:	0.520000
+**********************************************************************
+[1510]	loss:	0.30434	time lapsed:	4.64 s
+[1520]	loss:	0.29275	time lapsed:	0.95 s
+[1530]	loss:	0.27122	time lapsed:	0.96 s
+[1540]	loss:	0.26002	time lapsed:	0.95 s
+[1550]	loss:	0.23549	time lapsed:	0.95 s
+[1560]	loss:	0.28281	time lapsed:	0.95 s
+[1570]	loss:	0.25549	time lapsed:	0.96 s
+[1580]	loss:	0.24811	time lapsed:	0.96 s
+[1590]	loss:	0.26749	time lapsed:	0.96 s
+[1600]	loss:	0.26288	time lapsed:	0.96 s
+**********************************************************************
+[1600]	Test set	correct:	233	error:	167	precision:	0.582500
+**********************************************************************
+[1610]	loss:	0.25977	time lapsed:	5.04 s
+[1620]	loss:	0.25680	time lapsed:	0.96 s
+[1630]	loss:	0.24923	time lapsed:	0.96 s
+[1640]	loss:	0.24835	time lapsed:	0.95 s
+[1650]	loss:	0.29728	time lapsed:	0.96 s
+[1660]	loss:	0.23552	time lapsed:	0.96 s
+[1670]	loss:	0.26336	time lapsed:	0.96 s
+[1680]	loss:	0.26291	time lapsed:	0.96 s
+[1690]	loss:	0.25247	time lapsed:	0.96 s
+[1700]	loss:	0.27547	time lapsed:	0.95 s
+**********************************************************************
+[1700]	Test set	correct:	216	error:	184	precision:	0.540000
+**********************************************************************
+[1710]	loss:	0.25429	time lapsed:	4.93 s
+[1720]	loss:	0.25801	time lapsed:	0.96 s
+[1730]	loss:	0.23604	time lapsed:	0.96 s
+[1740]	loss:	0.26631	time lapsed:	0.96 s
+[1750]	loss:	0.23704	time lapsed:	0.96 s
+[1760]	loss:	0.23515	time lapsed:	0.91 s
+[1770]	loss:	0.25740	time lapsed:	0.88 s
+[1780]	loss:	0.23658	time lapsed:	0.88 s
+[1790]	loss:	0.23814	time lapsed:	0.88 s
+[1800]	loss:	0.25616	time lapsed:	0.88 s
+**********************************************************************
+[1800]	Test set	correct:	237	error:	163	precision:	0.592500
+**********************************************************************
+[1810]	loss:	0.24347	time lapsed:	4.76 s
+[1820]	loss:	0.24692	time lapsed:	0.97 s
+[1830]	loss:	0.24777	time lapsed:	0.96 s
+[1840]	loss:	0.25702	time lapsed:	0.96 s
+[1850]	loss:	0.27388	time lapsed:	0.96 s
+[1860]	loss:	0.25829	time lapsed:	0.96 s
+[1870]	loss:	0.23380	time lapsed:	0.96 s
+[1880]	loss:	0.22811	time lapsed:	0.96 s
+[1890]	loss:	0.25356	time lapsed:	0.96 s
+[1900]	loss:	0.24185	time lapsed:	0.96 s
+**********************************************************************
+[1900]	Test set	correct:	237	error:	163	precision:	0.592500
+**********************************************************************
+[1910]	loss:	0.24467	time lapsed:	4.97 s
+[1920]	loss:	0.22996	time lapsed:	0.96 s
+[1930]	loss:	0.26363	time lapsed:	0.96 s
+[1940]	loss:	0.23695	time lapsed:	0.96 s
+[1950]	loss:	0.24730	time lapsed:	0.96 s
+[1960]	loss:	0.26028	time lapsed:	0.96 s
+[1970]	loss:	0.24376	time lapsed:	0.97 s
+[1980]	loss:	0.24263	time lapsed:	0.96 s
+[1990]	loss:	0.24551	time lapsed:	0.97 s
+[2000]	loss:	0.23073	time lapsed:	0.96 s
+**********************************************************************
+[2000]	Test set	correct:	244	error:	156	precision:	0.610000
+**********************************************************************
+[2010]	loss:	0.23777	time lapsed:	4.85 s
+[2020]	loss:	0.25474	time lapsed:	0.96 s
+[2030]	loss:	0.25335	time lapsed:	0.96 s
+[2040]	loss:	0.25879	time lapsed:	0.96 s
+[2050]	loss:	0.21915	time lapsed:	0.96 s
+[2060]	loss:	0.24890	time lapsed:	0.96 s
+[2070]	loss:	0.22847	time lapsed:	0.96 s
+[2080]	loss:	0.24714	time lapsed:	0.96 s
+[2090]	loss:	0.23127	time lapsed:	0.96 s
+[2100]	loss:	0.23615	time lapsed:	0.96 s
+**********************************************************************
+[2100]	Test set	correct:	237	error:	163	precision:	0.592500
+**********************************************************************
+[2110]	loss:	0.24260	time lapsed:	4.81 s
+[2120]	loss:	0.22700	time lapsed:	0.96 s
+[2130]	loss:	0.20939	time lapsed:	0.96 s
+[2140]	loss:	0.21105	time lapsed:	0.96 s
+[2150]	loss:	0.21965	time lapsed:	0.96 s
+[2160]	loss:	0.21853	time lapsed:	0.96 s
+[2170]	loss:	0.20819	time lapsed:	0.96 s
+[2180]	loss:	0.23090	time lapsed:	0.96 s
+[2190]	loss:	0.22117	time lapsed:	0.96 s
+[2200]	loss:	0.22020	time lapsed:	0.96 s
+**********************************************************************
+[2200]	Test set	correct:	250	error:	150	precision:	0.625000
+**********************************************************************
+[2210]	loss:	0.25380	time lapsed:	4.86 s
+[2220]	loss:	0.23898	time lapsed:	0.96 s
+[2230]	loss:	0.22404	time lapsed:	0.96 s
+[2240]	loss:	0.21202	time lapsed:	0.96 s
+[2250]	loss:	0.22853	time lapsed:	0.96 s
+[2260]	loss:	0.22245	time lapsed:	0.96 s
+[2270]	loss:	0.23270	time lapsed:	0.96 s
+[2280]	loss:	0.20126	time lapsed:	0.96 s
+[2290]	loss:	0.23063	time lapsed:	0.96 s
+[2300]	loss:	0.20898	time lapsed:	0.96 s
+**********************************************************************
+[2300]	Test set	correct:	254	error:	146	precision:	0.635000
+**********************************************************************
+[2310]	loss:	0.23522	time lapsed:	4.84 s
+[2320]	loss:	0.24840	time lapsed:	0.96 s
+[2330]	loss:	0.23466	time lapsed:	0.96 s
+[2340]	loss:	0.22296	time lapsed:	0.96 s
+[2350]	loss:	0.21469	time lapsed:	0.96 s
+[2360]	loss:	0.20448	time lapsed:	0.96 s
+[2370]	loss:	0.21751	time lapsed:	0.96 s
+[2380]	loss:	0.19117	time lapsed:	0.96 s
+[2390]	loss:	0.22829	time lapsed:	0.96 s
+[2400]	loss:	0.23032	time lapsed:	0.97 s
+**********************************************************************
+[2400]	Test set	correct:	268	error:	132	precision:	0.670000
+**********************************************************************
+[2410]	loss:	0.22705	time lapsed:	4.85 s
+[2420]	loss:	0.21529	time lapsed:	0.96 s
+[2430]	loss:	0.20660	time lapsed:	0.96 s
+[2440]	loss:	0.21521	time lapsed:	0.96 s
+[2450]	loss:	0.22365	time lapsed:	0.97 s
+[2460]	loss:	0.23764	time lapsed:	0.97 s
+[2470]	loss:	0.22938	time lapsed:	0.96 s
+[2480]	loss:	0.21487	time lapsed:	0.97 s
+[2490]	loss:	0.20251	time lapsed:	0.96 s
+[2500]	loss:	0.19198	time lapsed:	0.97 s
+**********************************************************************
+[2500]	Test set	correct:	262	error:	138	precision:	0.655000
+**********************************************************************
+[2510]	loss:	0.21341	time lapsed:	5.08 s
+[2520]	loss:	0.20412	time lapsed:	0.96 s
+[2530]	loss:	0.22017	time lapsed:	0.96 s
+[2540]	loss:	0.22248	time lapsed:	0.96 s
+[2550]	loss:	0.19375	time lapsed:	0.96 s
+[2560]	loss:	0.21226	time lapsed:	0.96 s
+[2570]	loss:	0.22054	time lapsed:	0.96 s
+[2580]	loss:	0.20588	time lapsed:	0.96 s
+[2590]	loss:	0.20470	time lapsed:	0.96 s
+[2600]	loss:	0.23197	time lapsed:	0.96 s
+**********************************************************************
+[2600]	Test set	correct:	251	error:	149	precision:	0.627500
+**********************************************************************
+[2610]	loss:	0.23753	time lapsed:	4.94 s
+[2620]	loss:	0.19741	time lapsed:	0.97 s
+[2630]	loss:	0.19875	time lapsed:	0.96 s
+[2640]	loss:	0.21436	time lapsed:	0.97 s
+[2650]	loss:	0.20162	time lapsed:	0.96 s
+[2660]	loss:	0.20563	time lapsed:	0.96 s
+[2670]	loss:	0.21531	time lapsed:	0.96 s
+[2680]	loss:	0.20333	time lapsed:	0.96 s
+[2690]	loss:	0.18657	time lapsed:	0.96 s
+[2700]	loss:	0.18285	time lapsed:	0.96 s
+**********************************************************************
+[2700]	Test set	correct:	248	error:	152	precision:	0.620000
+**********************************************************************
+[2710]	loss:	0.20414	time lapsed:	4.83 s
+[2720]	loss:	0.19437	time lapsed:	0.96 s
+[2730]	loss:	0.21668	time lapsed:	0.97 s
+[2740]	loss:	0.21004	time lapsed:	0.97 s
+[2750]	loss:	0.20092	time lapsed:	0.96 s
+[2760]	loss:	0.19554	time lapsed:	0.97 s
+[2770]	loss:	0.23210	time lapsed:	0.97 s
+[2780]	loss:	0.16961	time lapsed:	0.97 s
+[2790]	loss:	0.19398	time lapsed:	0.97 s
+[2800]	loss:	0.19802	time lapsed:	0.97 s
+**********************************************************************
+[2800]	Test set	correct:	245	error:	155	precision:	0.612500
+**********************************************************************
+[2810]	loss:	0.21099	time lapsed:	4.90 s
+[2820]	loss:	0.20612	time lapsed:	0.96 s
+[2830]	loss:	0.20225	time lapsed:	0.95 s
+[2840]	loss:	0.19941	time lapsed:	0.95 s
+[2850]	loss:	0.21859	time lapsed:	0.95 s
+[2860]	loss:	0.21532	time lapsed:	0.95 s
+[2870]	loss:	0.19609	time lapsed:	0.95 s
+[2880]	loss:	0.21727	time lapsed:	0.95 s
+[2890]	loss:	0.18002	time lapsed:	0.95 s
+[2900]	loss:	0.20115	time lapsed:	0.95 s
+**********************************************************************
+[2900]	Test set	correct:	272	error:	128	precision:	0.680000
+**********************************************************************
+[2910]	loss:	0.20907	time lapsed:	4.88 s
+[2920]	loss:	0.19414	time lapsed:	0.95 s
+[2930]	loss:	0.17545	time lapsed:	0.95 s
+[2940]	loss:	0.18863	time lapsed:	0.95 s
+[2950]	loss:	0.19765	time lapsed:	0.95 s
+[2960]	loss:	0.19342	time lapsed:	0.95 s
+[2970]	loss:	0.20852	time lapsed:	0.95 s
+[2980]	loss:	0.22030	time lapsed:	0.95 s
+[2990]	loss:	0.18391	time lapsed:	0.95 s
+[3000]	loss:	0.19686	time lapsed:	0.95 s
+**********************************************************************
+[3000]	Test set	correct:	241	error:	159	precision:	0.602500
+**********************************************************************
+[3010]	loss:	0.20960	time lapsed:	4.93 s
+[3020]	loss:	0.18067	time lapsed:	0.96 s
+[3030]	loss:	0.19620	time lapsed:	0.97 s
+[3040]	loss:	0.18800	time lapsed:	0.97 s
+[3050]	loss:	0.17926	time lapsed:	0.96 s
+[3060]	loss:	0.18882	time lapsed:	0.97 s
+[3070]	loss:	0.18989	time lapsed:	0.96 s
+[3080]	loss:	0.20434	time lapsed:	0.96 s
+[3090]	loss:	0.19880	time lapsed:	0.96 s
+[3100]	loss:	0.19132	time lapsed:	0.97 s
+**********************************************************************
+[3100]	Test set	correct:	256	error:	144	precision:	0.640000
+**********************************************************************
+[3110]	loss:	0.19830	time lapsed:	4.84 s
+[3120]	loss:	0.20737	time lapsed:	0.97 s
+[3130]	loss:	0.18174	time lapsed:	0.96 s
+[3140]	loss:	0.21175	time lapsed:	0.96 s
+[3150]	loss:	0.20342	time lapsed:	0.97 s
+[3160]	loss:	0.20010	time lapsed:	0.96 s
+[3170]	loss:	0.19208	time lapsed:	0.96 s
+[3180]	loss:	0.17390	time lapsed:	0.96 s
+[3190]	loss:	0.19384	time lapsed:	0.96 s
+[3200]	loss:	0.17521	time lapsed:	0.96 s
+**********************************************************************
+[3200]	Test set	correct:	265	error:	135	precision:	0.662500
+**********************************************************************
+[3210]	loss:	0.18305	time lapsed:	4.89 s
+[3220]	loss:	0.16008	time lapsed:	0.96 s
+[3230]	loss:	0.17877	time lapsed:	0.96 s
+[3240]	loss:	0.18919	time lapsed:	0.96 s
+[3250]	loss:	0.19350	time lapsed:	0.97 s
+[3260]	loss:	0.18424	time lapsed:	0.96 s
+[3270]	loss:	0.17869	time lapsed:	0.96 s
+[3280]	loss:	0.19924	time lapsed:	0.96 s
+[3290]	loss:	0.18230	time lapsed:	0.97 s
+[3300]	loss:	0.19542	time lapsed:	0.97 s
+**********************************************************************
+[3300]	Test set	correct:	266	error:	134	precision:	0.665000
+**********************************************************************
+[3310]	loss:	0.19203	time lapsed:	5.72 s
+[3320]	loss:	0.16661	time lapsed:	0.97 s
+[3330]	loss:	0.20933	time lapsed:	0.96 s
+[3340]	loss:	0.19479	time lapsed:	0.96 s
+[3350]	loss:	0.18093	time lapsed:	0.96 s
+[3360]	loss:	0.16083	time lapsed:	0.96 s
+[3370]	loss:	0.18561	time lapsed:	0.96 s
+[3380]	loss:	0.17578	time lapsed:	0.96 s
+[3390]	loss:	0.17515	time lapsed:	0.96 s
+[3400]	loss:	0.17880	time lapsed:	0.96 s
+**********************************************************************
+[3400]	Test set	correct:	291	error:	109	precision:	0.727500
+**********************************************************************
+[3410]	loss:	0.16754	time lapsed:	4.78 s
+[3420]	loss:	0.16051	time lapsed:	0.96 s
+[3430]	loss:	0.16340	time lapsed:	0.96 s
+[3440]	loss:	0.17735	time lapsed:	0.96 s
+[3450]	loss:	0.19010	time lapsed:	0.96 s
+[3460]	loss:	0.20234	time lapsed:	0.96 s
+[3470]	loss:	0.17979	time lapsed:	0.96 s
+[3480]	loss:	0.16524	time lapsed:	0.96 s
+[3490]	loss:	0.19737	time lapsed:	0.96 s
+[3500]	loss:	0.17829	time lapsed:	0.96 s
+**********************************************************************
+[3500]	Test set	correct:	264	error:	136	precision:	0.660000
+**********************************************************************
+[3510]	loss:	0.17826	time lapsed:	4.90 s
+[3520]	loss:	0.17797	time lapsed:	0.97 s
+[3530]	loss:	0.17907	time lapsed:	0.97 s
+[3540]	loss:	0.17995	time lapsed:	0.97 s
+[3550]	loss:	0.18691	time lapsed:	0.96 s
+[3560]	loss:	0.19642	time lapsed:	0.96 s
+[3570]	loss:	0.17773	time lapsed:	0.96 s
+[3580]	loss:	0.17533	time lapsed:	0.96 s
+[3590]	loss:	0.17529	time lapsed:	0.96 s
+[3600]	loss:	0.18207	time lapsed:	0.96 s
+**********************************************************************
+[3600]	Test set	correct:	291	error:	109	precision:	0.727500
+**********************************************************************
+[3610]	loss:	0.16927	time lapsed:	4.78 s
+[3620]	loss:	0.16571	time lapsed:	0.96 s
+[3630]	loss:	0.17550	time lapsed:	0.97 s
+[3640]	loss:	0.18463	time lapsed:	0.96 s
+[3650]	loss:	0.16254	time lapsed:	0.96 s
+[3660]	loss:	0.15388	time lapsed:	0.96 s
+[3670]	loss:	0.16030	time lapsed:	0.96 s
+[3680]	loss:	0.15998	time lapsed:	0.96 s
+[3690]	loss:	0.18157	time lapsed:	0.96 s
+[3700]	loss:	0.15253	time lapsed:	0.97 s
+**********************************************************************
+[3700]	Test set	correct:	264	error:	136	precision:	0.660000
+**********************************************************************
+[3710]	loss:	0.17532	time lapsed:	4.88 s
+[3720]	loss:	0.18475	time lapsed:	0.96 s
+[3730]	loss:	0.16536	time lapsed:	0.96 s
+[3740]	loss:	0.16892	time lapsed:	0.96 s
+[3750]	loss:	0.18478	time lapsed:	0.96 s
+[3760]	loss:	0.14424	time lapsed:	0.96 s
+[3770]	loss:	0.20079	time lapsed:	0.96 s
+[3780]	loss:	0.16431	time lapsed:	0.96 s
+[3790]	loss:	0.17938	time lapsed:	0.96 s
+[3800]	loss:	0.17838	time lapsed:	0.96 s
+**********************************************************************
+[3800]	Test set	correct:	286	error:	114	precision:	0.715000
+**********************************************************************
+[3810]	loss:	0.17009	time lapsed:	4.89 s
+[3820]	loss:	0.16347	time lapsed:	0.97 s
+[3830]	loss:	0.18866	time lapsed:	0.97 s
+[3840]	loss:	0.16836	time lapsed:	0.97 s
+[3850]	loss:	0.16503	time lapsed:	0.97 s
+[3860]	loss:	0.15441	time lapsed:	0.96 s
+[3870]	loss:	0.15128	time lapsed:	0.97 s
+[3880]	loss:	0.16626	time lapsed:	0.96 s
+[3890]	loss:	0.16968	time lapsed:	0.96 s
+[3900]	loss:	0.17523	time lapsed:	0.96 s
+**********************************************************************
+[3900]	Test set	correct:	276	error:	124	precision:	0.690000
+**********************************************************************
+[3910]	loss:	0.15587	time lapsed:	4.86 s
+[3920]	loss:	0.16150	time lapsed:	0.96 s
+[3930]	loss:	0.18184	time lapsed:	0.96 s
+[3940]	loss:	0.16474	time lapsed:	0.96 s
+[3950]	loss:	0.15315	time lapsed:	0.96 s
+[3960]	loss:	0.16540	time lapsed:	0.96 s
+[3970]	loss:	0.18263	time lapsed:	0.96 s
+[3980]	loss:	0.20844	time lapsed:	0.96 s
+[3990]	loss:	0.18763	time lapsed:	0.96 s
+[4000]	loss:	0.15390	time lapsed:	0.96 s
+**********************************************************************
+[4000]	Test set	correct:	300	error:	100	precision:	0.750000
+**********************************************************************
+[4010]	loss:	0.16468	time lapsed:	5.14 s
+[4020]	loss:	0.17553	time lapsed:	1.04 s
+[4030]	loss:	0.15854	time lapsed:	1.04 s
+[4040]	loss:	0.16788	time lapsed:	1.04 s
+[4050]	loss:	0.15213	time lapsed:	1.04 s
+[4060]	loss:	0.16687	time lapsed:	1.04 s
+[4070]	loss:	0.18089	time lapsed:	1.04 s
+[4080]	loss:	0.18428	time lapsed:	1.05 s
+[4090]	loss:	0.15913	time lapsed:	1.05 s
+[4100]	loss:	0.16787	time lapsed:	1.05 s
+**********************************************************************
+[4100]	Test set	correct:	273	error:	127	precision:	0.682500
+**********************************************************************
+[4110]	loss:	0.14270	time lapsed:	5.56 s
+[4120]	loss:	0.16097	time lapsed:	1.04 s
+[4130]	loss:	0.17876	time lapsed:	1.05 s
+[4140]	loss:	0.17801	time lapsed:	1.05 s
+[4150]	loss:	0.15556	time lapsed:	1.04 s
+[4160]	loss:	0.17006	time lapsed:	1.05 s
+[4170]	loss:	0.18632	time lapsed:	1.05 s
+[4180]	loss:	0.16300	time lapsed:	1.05 s
+[4190]	loss:	0.15360	time lapsed:	1.05 s
+[4200]	loss:	0.18053	time lapsed:	1.05 s
+**********************************************************************
+[4200]	Test set	correct:	287	error:	113	precision:	0.717500
+**********************************************************************
+[4210]	loss:	0.16677	time lapsed:	5.43 s
+[4220]	loss:	0.18089	time lapsed:	1.04 s
+[4230]	loss:	0.16577	time lapsed:	1.04 s
+[4240]	loss:	0.16615	time lapsed:	1.04 s
+[4250]	loss:	0.18210	time lapsed:	1.05 s
+[4260]	loss:	0.15017	time lapsed:	1.04 s
+[4270]	loss:	0.17529	time lapsed:	1.06 s
+[4280]	loss:	0.16209	time lapsed:	1.06 s
+[4290]	loss:	0.18012	time lapsed:	1.06 s
+[4300]	loss:	0.19362	time lapsed:	1.06 s
+**********************************************************************
+[4300]	Test set	correct:	290	error:	110	precision:	0.725000
+**********************************************************************
+[4310]	loss:	0.17934	time lapsed:	5.41 s
+[4320]	loss:	0.15052	time lapsed:	1.06 s
+[4330]	loss:	0.14812	time lapsed:	1.05 s
+[4340]	loss:	0.17658	time lapsed:	1.04 s
+[4350]	loss:	0.13751	time lapsed:	1.04 s
+[4360]	loss:	0.17547	time lapsed:	1.04 s
+[4370]	loss:	0.14734	time lapsed:	1.04 s
+[4380]	loss:	0.16438	time lapsed:	1.04 s
+[4390]	loss:	0.15840	time lapsed:	1.04 s
+[4400]	loss:	0.15662	time lapsed:	1.04 s
+**********************************************************************
+[4400]	Test set	correct:	298	error:	102	precision:	0.745000
+**********************************************************************
+[4410]	loss:	0.14637	time lapsed:	5.33 s
+[4420]	loss:	0.15213	time lapsed:	1.04 s
+[4430]	loss:	0.16414	time lapsed:	1.04 s
+[4440]	loss:	0.14638	time lapsed:	1.04 s
+[4450]	loss:	0.16129	time lapsed:	1.04 s
+[4460]	loss:	0.15369	time lapsed:	1.04 s
+[4470]	loss:	0.15837	time lapsed:	1.04 s
+[4480]	loss:	0.16893	time lapsed:	1.04 s
+[4490]	loss:	0.16635	time lapsed:	1.04 s
+[4500]	loss:	0.15366	time lapsed:	1.04 s
+**********************************************************************
+[4500]	Test set	correct:	296	error:	104	precision:	0.740000
+**********************************************************************
+[4510]	loss:	0.14538	time lapsed:	5.29 s
+[4520]	loss:	0.14301	time lapsed:	1.04 s
+[4530]	loss:	0.14024	time lapsed:	1.04 s
+[4540]	loss:	0.17352	time lapsed:	1.04 s
+[4550]	loss:	0.14757	time lapsed:	1.04 s
+[4560]	loss:	0.16521	time lapsed:	1.04 s
+[4570]	loss:	0.15207	time lapsed:	1.05 s
+[4580]	loss:	0.15883	time lapsed:	1.04 s
+[4590]	loss:	0.14151	time lapsed:	1.04 s
+[4600]	loss:	0.16131	time lapsed:	1.05 s
+**********************************************************************
+[4600]	Test set	correct:	290	error:	110	precision:	0.725000
+**********************************************************************
+[4610]	loss:	0.17333	time lapsed:	5.38 s
+[4620]	loss:	0.15108	time lapsed:	1.04 s
+[4630]	loss:	0.14400	time lapsed:	1.04 s
+[4640]	loss:	0.15823	time lapsed:	1.04 s
+[4650]	loss:	0.13954	time lapsed:	1.04 s
+[4660]	loss:	0.16637	time lapsed:	1.04 s
+[4670]	loss:	0.14311	time lapsed:	1.04 s
+[4680]	loss:	0.14364	time lapsed:	1.04 s
+[4690]	loss:	0.13974	time lapsed:	1.04 s
+[4700]	loss:	0.16349	time lapsed:	1.04 s
+**********************************************************************
+[4700]	Test set	correct:	294	error:	106	precision:	0.735000
+**********************************************************************
+[4710]	loss:	0.15590	time lapsed:	5.37 s
+[4720]	loss:	0.14247	time lapsed:	1.05 s
+[4730]	loss:	0.15859	time lapsed:	1.05 s
+[4740]	loss:	0.16470	time lapsed:	1.02 s
+[4750]	loss:	0.13730	time lapsed:	0.97 s
+[4760]	loss:	0.15466	time lapsed:	0.97 s
+[4770]	loss:	0.14281	time lapsed:	0.97 s
+[4780]	loss:	0.17027	time lapsed:	0.96 s
+[4790]	loss:	0.14748	time lapsed:	0.97 s
+[4800]	loss:	0.15626	time lapsed:	0.98 s
+**********************************************************************
+[4800]	Test set	correct:	285	error:	115	precision:	0.712500
+**********************************************************************
+[4810]	loss:	0.16566	time lapsed:	4.88 s
+[4820]	loss:	0.16489	time lapsed:	0.97 s
+[4830]	loss:	0.13837	time lapsed:	0.97 s
+[4840]	loss:	0.15247	time lapsed:	0.96 s
+[4850]	loss:	0.16179	time lapsed:	0.96 s
+[4860]	loss:	0.16395	time lapsed:	0.96 s
+[4870]	loss:	0.14082	time lapsed:	0.96 s
+[4880]	loss:	0.14185	time lapsed:	0.96 s
+[4890]	loss:	0.14007	time lapsed:	0.96 s
+[4900]	loss:	0.14443	time lapsed:	0.97 s
+**********************************************************************
+[4900]	Test set	correct:	296	error:	104	precision:	0.740000
+**********************************************************************
+[4910]	loss:	0.14637	time lapsed:	4.99 s
+[4920]	loss:	0.14211	time lapsed:	0.97 s
+[4930]	loss:	0.15174	time lapsed:	0.97 s
+[4940]	loss:	0.13479	time lapsed:	0.97 s
+[4950]	loss:	0.14899	time lapsed:	0.97 s
+[4960]	loss:	0.13703	time lapsed:	0.96 s
+[4970]	loss:	0.14579	time lapsed:	0.96 s
+[4980]	loss:	0.14685	time lapsed:	0.97 s
+[4990]	loss:	0.13864	time lapsed:	0.97 s
+[5000]	loss:	0.12078	time lapsed:	0.96 s
+**********************************************************************
+[5000]	Test set	correct:	296	error:	104	precision:	0.740000
+**********************************************************************
+[5010]	loss:	0.15017	time lapsed:	5.06 s
+[5020]	loss:	0.17430	time lapsed:	0.96 s
+[5030]	loss:	0.12245	time lapsed:	0.96 s
+[5040]	loss:	0.14780	time lapsed:	0.96 s
+[5050]	loss:	0.15737	time lapsed:	0.97 s
+[5060]	loss:	0.16533	time lapsed:	0.97 s
+[5070]	loss:	0.13360	time lapsed:	0.96 s
+[5080]	loss:	0.16540	time lapsed:	0.96 s
+[5090]	loss:	0.13348	time lapsed:	0.96 s
+[5100]	loss:	0.15298	time lapsed:	0.96 s
+**********************************************************************
+[5100]	Test set	correct:	301	error:	99	precision:	0.752500
+**********************************************************************
+[5110]	loss:	0.15093	time lapsed:	4.92 s
+[5120]	loss:	0.16943	time lapsed:	0.96 s
+[5130]	loss:	0.13137	time lapsed:	0.97 s
+[5140]	loss:	0.14348	time lapsed:	0.97 s
+[5150]	loss:	0.15457	time lapsed:	0.97 s
+[5160]	loss:	0.13535	time lapsed:	0.97 s
+[5170]	loss:	0.12177	time lapsed:	0.97 s
+[5180]	loss:	0.16297	time lapsed:	0.97 s
+[5190]	loss:	0.14711	time lapsed:	0.96 s
+[5200]	loss:	0.14920	time lapsed:	0.96 s
+**********************************************************************
+[5200]	Test set	correct:	304	error:	96	precision:	0.760000
+**********************************************************************
+[5210]	loss:	0.14582	time lapsed:	4.77 s
+[5220]	loss:	0.14072	time lapsed:	0.97 s
+[5230]	loss:	0.14104	time lapsed:	0.97 s
+[5240]	loss:	0.17277	time lapsed:	0.97 s
+[5250]	loss:	0.13760	time lapsed:	0.97 s
+[5260]	loss:	0.13980	time lapsed:	0.97 s
+[5270]	loss:	0.13411	time lapsed:	0.96 s
+[5280]	loss:	0.16813	time lapsed:	0.96 s
+[5290]	loss:	0.12374	time lapsed:	0.95 s
+[5300]	loss:	0.16360	time lapsed:	0.95 s
+**********************************************************************
+[5300]	Test set	correct:	292	error:	108	precision:	0.730000
+**********************************************************************
+[5310]	loss:	0.15945	time lapsed:	4.82 s
+[5320]	loss:	0.14241	time lapsed:	0.95 s
+[5330]	loss:	0.13521	time lapsed:	0.95 s
+[5340]	loss:	0.12871	time lapsed:	0.95 s
+[5350]	loss:	0.13691	time lapsed:	0.95 s
+[5360]	loss:	0.14795	time lapsed:	0.95 s
+[5370]	loss:	0.15881	time lapsed:	0.95 s
+[5380]	loss:	0.14854	time lapsed:	0.97 s
+[5390]	loss:	0.15333	time lapsed:	0.97 s
+[5400]	loss:	0.15530	time lapsed:	0.97 s
+**********************************************************************
+[5400]	Test set	correct:	285	error:	115	precision:	0.712500
+**********************************************************************
+[5410]	loss:	0.15092	time lapsed:	5.15 s
+[5420]	loss:	0.15460	time lapsed:	0.97 s
+[5430]	loss:	0.13407	time lapsed:	0.97 s
+[5440]	loss:	0.13146	time lapsed:	0.96 s
+[5450]	loss:	0.13592	time lapsed:	0.96 s
+[5460]	loss:	0.14469	time lapsed:	0.97 s
+[5470]	loss:	0.13737	time lapsed:	0.97 s
+[5480]	loss:	0.13758	time lapsed:	0.97 s
+[5490]	loss:	0.13649	time lapsed:	0.97 s
+[5500]	loss:	0.13891	time lapsed:	0.96 s
+**********************************************************************
+[5500]	Test set	correct:	283	error:	117	precision:	0.707500
+**********************************************************************
+[5510]	loss:	0.12761	time lapsed:	4.91 s
+[5520]	loss:	0.13254	time lapsed:	0.97 s
+[5530]	loss:	0.15356	time lapsed:	0.96 s
+[5540]	loss:	0.12864	time lapsed:	0.96 s
+[5550]	loss:	0.13781	time lapsed:	0.96 s
+[5560]	loss:	0.14547	time lapsed:	0.97 s
+[5570]	loss:	0.14606	time lapsed:	0.96 s
+[5580]	loss:	0.14173	time lapsed:	0.96 s
+[5590]	loss:	0.15432	time lapsed:	0.96 s
+[5600]	loss:	0.14262	time lapsed:	0.96 s
+**********************************************************************
+[5600]	Test set	correct:	293	error:	107	precision:	0.732500
+**********************************************************************
+[5610]	loss:	0.14905	time lapsed:	4.83 s
+[5620]	loss:	0.13184	time lapsed:	0.96 s
+[5630]	loss:	0.14252	time lapsed:	0.96 s
+[5640]	loss:	0.13850	time lapsed:	0.96 s
+[5650]	loss:	0.13557	time lapsed:	0.96 s
+[5660]	loss:	0.11692	time lapsed:	0.96 s
+[5670]	loss:	0.13178	time lapsed:	0.96 s
+[5680]	loss:	0.13154	time lapsed:	0.96 s
+[5690]	loss:	0.13925	time lapsed:	0.96 s
+[5700]	loss:	0.13656	time lapsed:	0.96 s
+**********************************************************************
+[5700]	Test set	correct:	307	error:	93	precision:	0.767500
+**********************************************************************
+[5710]	loss:	0.15686	time lapsed:	4.88 s
+[5720]	loss:	0.13907	time lapsed:	0.96 s
+[5730]	loss:	0.13899	time lapsed:	0.97 s
+[5740]	loss:	0.12269	time lapsed:	0.96 s
+[5750]	loss:	0.14364	time lapsed:	0.96 s
+[5760]	loss:	0.15707	time lapsed:	0.96 s
+[5770]	loss:	0.14080	time lapsed:	0.96 s
+[5780]	loss:	0.14358	time lapsed:	0.96 s
+[5790]	loss:	0.13541	time lapsed:	0.96 s
+[5800]	loss:	0.13500	time lapsed:	0.96 s
+**********************************************************************
+[5800]	Test set	correct:	299	error:	101	precision:	0.747500
+**********************************************************************
+[5810]	loss:	0.14378	time lapsed:	4.85 s
+[5820]	loss:	0.14354	time lapsed:	0.96 s
+[5830]	loss:	0.14797	time lapsed:	0.96 s
+[5840]	loss:	0.12908	time lapsed:	0.96 s
+[5850]	loss:	0.14671	time lapsed:	0.96 s
+[5860]	loss:	0.15235	time lapsed:	0.96 s
+[5870]	loss:	0.14129	time lapsed:	0.96 s
+[5880]	loss:	0.13089	time lapsed:	0.96 s
+[5890]	loss:	0.12760	time lapsed:	0.96 s
+[5900]	loss:	0.13090	time lapsed:	0.96 s
+**********************************************************************
+[5900]	Test set	correct:	288	error:	112	precision:	0.720000
+**********************************************************************
+[5910]	loss:	0.13477	time lapsed:	4.85 s
+[5920]	loss:	0.13643	time lapsed:	0.97 s
+[5930]	loss:	0.12808	time lapsed:	0.96 s
+[5940]	loss:	0.14975	time lapsed:	0.96 s
+[5950]	loss:	0.12339	time lapsed:	0.96 s
+[5960]	loss:	0.11773	time lapsed:	0.96 s
+[5970]	loss:	0.11965	time lapsed:	0.96 s
+[5980]	loss:	0.12415	time lapsed:	0.96 s
+[5990]	loss:	0.14318	time lapsed:	0.96 s
+[6000]	loss:	0.12333	time lapsed:	0.96 s
+**********************************************************************
+[6000]	Test set	correct:	289	error:	111	precision:	0.722500
+**********************************************************************
+[6010]	loss:	0.14908	time lapsed:	4.88 s
+[6020]	loss:	0.12513	time lapsed:	0.96 s
+[6030]	loss:	0.11934	time lapsed:	0.96 s
+[6040]	loss:	0.17216	time lapsed:	0.96 s
+[6050]	loss:	0.13800	time lapsed:	0.97 s
+[6060]	loss:	0.13485	time lapsed:	0.96 s
+[6070]	loss:	0.12515	time lapsed:	0.97 s
+[6080]	loss:	0.12911	time lapsed:	0.97 s
+[6090]	loss:	0.13440	time lapsed:	0.97 s
+[6100]	loss:	0.14463	time lapsed:	0.96 s
+**********************************************************************
+[6100]	Test set	correct:	304	error:	96	precision:	0.760000
+**********************************************************************
+[6110]	loss:	0.13855	time lapsed:	5.16 s
+[6120]	loss:	0.13634	time lapsed:	0.97 s
+[6130]	loss:	0.14465	time lapsed:	0.96 s
+[6140]	loss:	0.14703	time lapsed:	0.96 s
+[6150]	loss:	0.13173	time lapsed:	0.96 s
+[6160]	loss:	0.11692	time lapsed:	0.96 s
+[6170]	loss:	0.13674	time lapsed:	0.96 s
+[6180]	loss:	0.14507	time lapsed:	0.96 s
+[6190]	loss:	0.12729	time lapsed:	0.96 s
+[6200]	loss:	0.13043	time lapsed:	0.96 s
+**********************************************************************
+[6200]	Test set	correct:	315	error:	85	precision:	0.787500
+**********************************************************************
+[6210]	loss:	0.12942	time lapsed:	4.98 s
+[6220]	loss:	0.13702	time lapsed:	0.97 s
+[6230]	loss:	0.13299	time lapsed:	0.97 s
+[6240]	loss:	0.15953	time lapsed:	0.97 s
+[6250]	loss:	0.13679	time lapsed:	0.96 s
+[6260]	loss:	0.12737	time lapsed:	0.97 s
+[6270]	loss:	0.13795	time lapsed:	0.97 s
+[6280]	loss:	0.12103	time lapsed:	0.97 s
+[6290]	loss:	0.15415	time lapsed:	0.97 s
+[6300]	loss:	0.14149	time lapsed:	0.97 s
+**********************************************************************
+[6300]	Test set	correct:	315	error:	85	precision:	0.787500
+**********************************************************************
+[6310]	loss:	0.13058	time lapsed:	4.89 s
+[6320]	loss:	0.11426	time lapsed:	0.97 s
+[6330]	loss:	0.13643	time lapsed:	0.96 s
+[6340]	loss:	0.14172	time lapsed:	0.96 s
+[6350]	loss:	0.14506	time lapsed:	0.96 s
+[6360]	loss:	0.13399	time lapsed:	0.96 s
+[6370]	loss:	0.13237	time lapsed:	0.96 s
+[6380]	loss:	0.11870	time lapsed:	0.96 s
+[6390]	loss:	0.11358	time lapsed:	0.96 s
+[6400]	loss:	0.13257	time lapsed:	0.96 s
+**********************************************************************
+[6400]	Test set	correct:	308	error:	92	precision:	0.770000
+**********************************************************************
+[6410]	loss:	0.13347	time lapsed:	4.86 s
+[6420]	loss:	0.12814	time lapsed:	0.96 s
+[6430]	loss:	0.12399	time lapsed:	0.96 s
+[6440]	loss:	0.11179	time lapsed:	0.96 s
+[6450]	loss:	0.11024	time lapsed:	0.96 s
+[6460]	loss:	0.10759	time lapsed:	0.96 s
+[6470]	loss:	0.13795	time lapsed:	0.97 s
+[6480]	loss:	0.15197	time lapsed:	0.96 s
+[6490]	loss:	0.13532	time lapsed:	0.96 s
+[6500]	loss:	0.13270	time lapsed:	0.96 s
+**********************************************************************
+[6500]	Test set	correct:	306	error:	94	precision:	0.765000
+**********************************************************************
+[6510]	loss:	0.12611	time lapsed:	4.88 s
+[6520]	loss:	0.12297	time lapsed:	0.96 s
+[6530]	loss:	0.14156	time lapsed:	0.97 s
+[6540]	loss:	0.13337	time lapsed:	0.96 s
+[6550]	loss:	0.12700	time lapsed:	0.96 s
+[6560]	loss:	0.13645	time lapsed:	0.96 s
+[6570]	loss:	0.11656	time lapsed:	0.96 s
+[6580]	loss:	0.12604	time lapsed:	0.96 s
+[6590]	loss:	0.13244	time lapsed:	0.96 s
+[6600]	loss:	0.13934	time lapsed:	0.96 s
+**********************************************************************
+[6600]	Test set	correct:	305	error:	95	precision:	0.762500
+**********************************************************************
+[6610]	loss:	0.12955	time lapsed:	4.88 s
+[6620]	loss:	0.13125	time lapsed:	0.96 s
+[6630]	loss:	0.12184	time lapsed:	0.96 s
+[6640]	loss:	0.14343	time lapsed:	0.96 s
+[6650]	loss:	0.13950	time lapsed:	0.96 s
+[6660]	loss:	0.12076	time lapsed:	0.96 s
+[6670]	loss:	0.12120	time lapsed:	0.97 s
+[6680]	loss:	0.11375	time lapsed:	0.97 s
+[6690]	loss:	0.13067	time lapsed:	0.96 s
+[6700]	loss:	0.13803	time lapsed:	0.97 s
+**********************************************************************
+[6700]	Test set	correct:	306	error:	94	precision:	0.765000
+**********************************************************************
+[6710]	loss:	0.12468	time lapsed:	5.03 s
+[6720]	loss:	0.15484	time lapsed:	0.96 s
+[6730]	loss:	0.13391	time lapsed:	0.96 s
+[6740]	loss:	0.12851	time lapsed:	0.96 s
+[6750]	loss:	0.11700	time lapsed:	0.96 s
+[6760]	loss:	0.13768	time lapsed:	0.96 s
+[6770]	loss:	0.13385	time lapsed:	0.96 s
+[6780]	loss:	0.13983	time lapsed:	0.98 s
+[6790]	loss:	0.13861	time lapsed:	0.97 s
+[6800]	loss:	0.14165	time lapsed:	0.97 s
+**********************************************************************
+[6800]	Test set	correct:	285	error:	115	precision:	0.712500
+**********************************************************************
+[6810]	loss:	0.10194	time lapsed:	5.02 s
+[6820]	loss:	0.12887	time lapsed:	0.97 s
+[6830]	loss:	0.13436	time lapsed:	0.97 s
+[6840]	loss:	0.12832	time lapsed:	0.97 s
+[6850]	loss:	0.09421	time lapsed:	0.96 s
+[6860]	loss:	0.11317	time lapsed:	0.96 s
+[6870]	loss:	0.11862	time lapsed:	0.97 s
+[6880]	loss:	0.13651	time lapsed:	0.98 s
+[6890]	loss:	0.13394	time lapsed:	0.97 s
+[6900]	loss:	0.12759	time lapsed:	0.96 s
+**********************************************************************
+[6900]	Test set	correct:	304	error:	96	precision:	0.760000
+**********************************************************************
+[6910]	loss:	0.11709	time lapsed:	4.96 s
+[6920]	loss:	0.12208	time lapsed:	0.96 s
+[6930]	loss:	0.14636	time lapsed:	0.96 s
+[6940]	loss:	0.11183	time lapsed:	0.96 s
+[6950]	loss:	0.13411	time lapsed:	0.96 s
+[6960]	loss:	0.14183	time lapsed:	0.96 s
+[6970]	loss:	0.12329	time lapsed:	0.96 s
+[6980]	loss:	0.11292	time lapsed:	0.96 s
+[6990]	loss:	0.11140	time lapsed:	0.96 s
+[7000]	loss:	0.11012	time lapsed:	0.96 s
+**********************************************************************
+[7000]	Test set	correct:	294	error:	106	precision:	0.735000
+**********************************************************************
+[7010]	loss:	0.13467	time lapsed:	4.83 s
+[7020]	loss:	0.13465	time lapsed:	0.96 s
+[7030]	loss:	0.10865	time lapsed:	0.96 s
+[7040]	loss:	0.11695	time lapsed:	0.96 s
+[7050]	loss:	0.13828	time lapsed:	0.97 s
+[7060]	loss:	0.12687	time lapsed:	0.96 s
+[7070]	loss:	0.09984	time lapsed:	0.96 s
+[7080]	loss:	0.12178	time lapsed:	0.96 s
+[7090]	loss:	0.13711	time lapsed:	0.96 s
+[7100]	loss:	0.13607	time lapsed:	0.96 s
+**********************************************************************
+[7100]	Test set	correct:	315	error:	85	precision:	0.787500
+**********************************************************************
+[7110]	loss:	0.11667	time lapsed:	4.90 s
+[7120]	loss:	0.12141	time lapsed:	0.95 s
+[7130]	loss:	0.11473	time lapsed:	0.95 s
+[7140]	loss:	0.11387	time lapsed:	0.95 s
+[7150]	loss:	0.12028	time lapsed:	0.96 s
+[7160]	loss:	0.12720	time lapsed:	0.95 s
+[7170]	loss:	0.13648	time lapsed:	0.95 s
+[7180]	loss:	0.11103	time lapsed:	0.95 s
+[7190]	loss:	0.13441	time lapsed:	0.95 s
+[7200]	loss:	0.12581	time lapsed:	0.95 s
+**********************************************************************
+[7200]	Test set	correct:	298	error:	102	precision:	0.745000
+**********************************************************************
+[7210]	loss:	0.13677	time lapsed:	4.77 s
+[7220]	loss:	0.10996	time lapsed:	0.95 s
+[7230]	loss:	0.13825	time lapsed:	0.95 s
+[7240]	loss:	0.11692	time lapsed:	0.95 s
+[7250]	loss:	0.12380	time lapsed:	0.95 s
+[7260]	loss:	0.11364	time lapsed:	0.95 s
+[7270]	loss:	0.12964	time lapsed:	0.95 s
+[7280]	loss:	0.12115	time lapsed:	0.95 s
+[7290]	loss:	0.09502	time lapsed:	0.95 s
+[7300]	loss:	0.12109	time lapsed:	0.95 s
+**********************************************************************
+[7300]	Test set	correct:	323	error:	77	precision:	0.807500
+**********************************************************************
+[7310]	loss:	0.11945	time lapsed:	4.84 s
+[7320]	loss:	0.11637	time lapsed:	0.96 s
+[7330]	loss:	0.11232	time lapsed:	0.96 s
+[7340]	loss:	0.11910	time lapsed:	0.96 s
+[7350]	loss:	0.11619	time lapsed:	0.96 s
+[7360]	loss:	0.12920	time lapsed:	0.96 s
+[7370]	loss:	0.12627	time lapsed:	0.96 s
+[7380]	loss:	0.12406	time lapsed:	0.96 s
+[7390]	loss:	0.10838	time lapsed:	0.97 s
+[7400]	loss:	0.11336	time lapsed:	0.96 s
+**********************************************************************
+[7400]	Test set	correct:	320	error:	80	precision:	0.800000
+**********************************************************************
+[7410]	loss:	0.11974	time lapsed:	4.88 s
+[7420]	loss:	0.11710	time lapsed:	0.97 s
+[7430]	loss:	0.10497	time lapsed:	0.97 s
+[7440]	loss:	0.10472	time lapsed:	0.97 s
+[7450]	loss:	0.10992	time lapsed:	0.96 s
+[7460]	loss:	0.10127	time lapsed:	0.97 s
+[7470]	loss:	0.13135	time lapsed:	0.97 s
+[7480]	loss:	0.12238	time lapsed:	0.96 s
+[7490]	loss:	0.12178	time lapsed:	0.97 s
+[7500]	loss:	0.11686	time lapsed:	0.97 s
+**********************************************************************
+[7500]	Test set	correct:	321	error:	79	precision:	0.802500
+**********************************************************************
+[7510]	loss:	0.10579	time lapsed:	4.96 s
+[7520]	loss:	0.12589	time lapsed:	0.97 s
+[7530]	loss:	0.11773	time lapsed:	0.97 s
+[7540]	loss:	0.11301	time lapsed:	0.97 s
+[7550]	loss:	0.10411	time lapsed:	0.97 s
+[7560]	loss:	0.11003	time lapsed:	0.97 s
+[7570]	loss:	0.12407	time lapsed:	0.97 s
+[7580]	loss:	0.11602	time lapsed:	0.96 s
+[7590]	loss:	0.11418	time lapsed:	0.97 s
+[7600]	loss:	0.11278	time lapsed:	0.98 s
+**********************************************************************
+[7600]	Test set	correct:	297	error:	103	precision:	0.742500
+**********************************************************************
+[7610]	loss:	0.10930	time lapsed:	4.90 s
+[7620]	loss:	0.11460	time lapsed:	0.96 s
+[7630]	loss:	0.10014	time lapsed:	0.96 s
+[7640]	loss:	0.12740	time lapsed:	0.97 s
+[7650]	loss:	0.11850	time lapsed:	0.97 s
+[7660]	loss:	0.10697	time lapsed:	0.98 s
+[7670]	loss:	0.11689	time lapsed:	0.97 s
+[7680]	loss:	0.10807	time lapsed:	0.97 s
+[7690]	loss:	0.12358	time lapsed:	0.98 s
+[7700]	loss:	0.11556	time lapsed:	0.98 s
+**********************************************************************
+[7700]	Test set	correct:	308	error:	92	precision:	0.770000
+**********************************************************************
+[7710]	loss:	0.12166	time lapsed:	5.01 s
+[7720]	loss:	0.12326	time lapsed:	0.98 s
+[7730]	loss:	0.11135	time lapsed:	0.98 s
+[7740]	loss:	0.11209	time lapsed:	0.98 s
+[7750]	loss:	0.13325	time lapsed:	0.97 s
+[7760]	loss:	0.10161	time lapsed:	0.96 s
+[7770]	loss:	0.12558	time lapsed:	0.96 s
+[7780]	loss:	0.12026	time lapsed:	0.96 s
+[7790]	loss:	0.11339	time lapsed:	0.96 s
+[7800]	loss:	0.12096	time lapsed:	0.97 s
+**********************************************************************
+[7800]	Test set	correct:	318	error:	82	precision:	0.795000
+**********************************************************************
+[7810]	loss:	0.11668	time lapsed:	4.93 s
+[7820]	loss:	0.09024	time lapsed:	0.96 s
+[7830]	loss:	0.11574	time lapsed:	0.96 s
+[7840]	loss:	0.12899	time lapsed:	0.96 s
+[7850]	loss:	0.12479	time lapsed:	0.97 s
+[7860]	loss:	0.11837	time lapsed:	0.96 s
+[7870]	loss:	0.13204	time lapsed:	0.97 s
+[7880]	loss:	0.10815	time lapsed:	0.96 s
+[7890]	loss:	0.10909	time lapsed:	0.96 s
+[7900]	loss:	0.09420	time lapsed:	0.96 s
+**********************************************************************
+[7900]	Test set	correct:	303	error:	97	precision:	0.757500
+**********************************************************************
+[7910]	loss:	0.12761	time lapsed:	4.76 s
+[7920]	loss:	0.12428	time lapsed:	0.96 s
+[7930]	loss:	0.11213	time lapsed:	0.97 s
+[7940]	loss:	0.10824	time lapsed:	0.96 s
+[7950]	loss:	0.10690	time lapsed:	0.96 s
+[7960]	loss:	0.12316	time lapsed:	0.96 s
+[7970]	loss:	0.10622	time lapsed:	0.96 s
+[7980]	loss:	0.12098	time lapsed:	0.96 s
+[7990]	loss:	0.09640	time lapsed:	0.96 s
+[8000]	loss:	0.09257	time lapsed:	0.96 s
+**********************************************************************
+[8000]	Test set	correct:	301	error:	99	precision:	0.752500
+**********************************************************************
+[8010]	loss:	0.10321	time lapsed:	4.89 s
+[8020]	loss:	0.10326	time lapsed:	0.96 s
+[8030]	loss:	0.11628	time lapsed:	0.97 s
+[8040]	loss:	0.12471	time lapsed:	0.96 s
+[8050]	loss:	0.10740	time lapsed:	0.96 s
+[8060]	loss:	0.10641	time lapsed:	0.96 s
+[8070]	loss:	0.10676	time lapsed:	0.96 s
+[8080]	loss:	0.10551	time lapsed:	0.96 s
+[8090]	loss:	0.11326	time lapsed:	0.97 s
+[8100]	loss:	0.09118	time lapsed:	0.97 s
+**********************************************************************
+[8100]	Test set	correct:	301	error:	99	precision:	0.752500
+**********************************************************************
+[8110]	loss:	0.09271	time lapsed:	4.94 s
+[8120]	loss:	0.09693	time lapsed:	0.96 s
+[8130]	loss:	0.09661	time lapsed:	0.96 s
+[8140]	loss:	0.11998	time lapsed:	0.97 s
+[8150]	loss:	0.12139	time lapsed:	0.97 s
+[8160]	loss:	0.10079	time lapsed:	0.96 s
+[8170]	loss:	0.10893	time lapsed:	0.97 s
+[8180]	loss:	0.10938	time lapsed:	0.97 s
+[8190]	loss:	0.10688	time lapsed:	0.97 s
+[8200]	loss:	0.10864	time lapsed:	0.98 s
+**********************************************************************
+[8200]	Test set	correct:	314	error:	86	precision:	0.785000
+**********************************************************************
+[8210]	loss:	0.11455	time lapsed:	5.03 s
+[8220]	loss:	0.10889	time lapsed:	0.97 s
+[8230]	loss:	0.08910	time lapsed:	0.97 s
+[8240]	loss:	0.11274	time lapsed:	0.97 s
+[8250]	loss:	0.10780	time lapsed:	0.97 s
+[8260]	loss:	0.10810	time lapsed:	0.97 s
+[8270]	loss:	0.11543	time lapsed:	0.96 s
+[8280]	loss:	0.11427	time lapsed:	0.96 s
+[8290]	loss:	0.11614	time lapsed:	0.97 s
+[8300]	loss:	0.10741	time lapsed:	0.97 s
+**********************************************************************
+[8300]	Test set	correct:	312	error:	88	precision:	0.780000
+**********************************************************************
+[8310]	loss:	0.12429	time lapsed:	4.94 s
+[8320]	loss:	0.12486	time lapsed:	0.97 s
+[8330]	loss:	0.11020	time lapsed:	0.97 s
+[8340]	loss:	0.12250	time lapsed:	0.97 s
+[8350]	loss:	0.11403	time lapsed:	0.96 s
+[8360]	loss:	0.12157	time lapsed:	0.96 s
+[8370]	loss:	0.09809	time lapsed:	0.96 s
+[8380]	loss:	0.10643	time lapsed:	0.97 s
+[8390]	loss:	0.11552	time lapsed:	0.97 s
+[8400]	loss:	0.10667	time lapsed:	0.96 s
+**********************************************************************
+[8400]	Test set	correct:	301	error:	99	precision:	0.752500
+**********************************************************************
+[8410]	loss:	0.11845	time lapsed:	4.89 s
+[8420]	loss:	0.11696	time lapsed:	0.96 s
+[8430]	loss:	0.13065	time lapsed:	0.96 s
+[8440]	loss:	0.11445	time lapsed:	0.96 s
+[8450]	loss:	0.10696	time lapsed:	0.96 s
+[8460]	loss:	0.10433	time lapsed:	0.96 s
+[8470]	loss:	0.11903	time lapsed:	0.96 s
+[8480]	loss:	0.11430	time lapsed:	0.96 s
+[8490]	loss:	0.10011	time lapsed:	0.97 s
+[8500]	loss:	0.11776	time lapsed:	0.96 s
+**********************************************************************
+[8500]	Test set	correct:	309	error:	91	precision:	0.772500
+**********************************************************************
+[8510]	loss:	0.10352	time lapsed:	4.87 s
+[8520]	loss:	0.11226	time lapsed:	0.97 s
+[8530]	loss:	0.09831	time lapsed:	0.96 s
+[8540]	loss:	0.11279	time lapsed:	0.96 s
+[8550]	loss:	0.11046	time lapsed:	0.96 s
+[8560]	loss:	0.11168	time lapsed:	0.96 s
+[8570]	loss:	0.10273	time lapsed:	0.97 s
+[8580]	loss:	0.11509	time lapsed:	0.97 s
+[8590]	loss:	0.12267	time lapsed:	0.97 s
+[8600]	loss:	0.12433	time lapsed:	0.97 s
+**********************************************************************
+[8600]	Test set	correct:	300	error:	100	precision:	0.750000
+**********************************************************************
+[8610]	loss:	0.10488	time lapsed:	5.13 s
+[8620]	loss:	0.10900	time lapsed:	0.97 s
+[8630]	loss:	0.09268	time lapsed:	0.97 s
+[8640]	loss:	0.10463	time lapsed:	0.97 s
+[8650]	loss:	0.09500	time lapsed:	0.97 s
+[8660]	loss:	0.11479	time lapsed:	0.97 s
+[8670]	loss:	0.10273	time lapsed:	0.97 s
+[8680]	loss:	0.12156	time lapsed:	0.97 s
+[8690]	loss:	0.10878	time lapsed:	0.97 s
+[8700]	loss:	0.09548	time lapsed:	0.97 s
+**********************************************************************
+[8700]	Test set	correct:	307	error:	93	precision:	0.767500
+**********************************************************************
+[8710]	loss:	0.09530	time lapsed:	4.91 s
+[8720]	loss:	0.11342	time lapsed:	0.97 s
+[8730]	loss:	0.10407	time lapsed:	0.96 s
+[8740]	loss:	0.10679	time lapsed:	0.96 s
+[8750]	loss:	0.10273	time lapsed:	0.97 s
+[8760]	loss:	0.12143	time lapsed:	0.96 s
+[8770]	loss:	0.11345	time lapsed:	0.96 s
+[8780]	loss:	0.10558	time lapsed:	0.96 s
+[8790]	loss:	0.09717	time lapsed:	0.97 s
+[8800]	loss:	0.09837	time lapsed:	0.96 s
+**********************************************************************
+[8800]	Test set	correct:	321	error:	79	precision:	0.802500
+**********************************************************************
+[8810]	loss:	0.09569	time lapsed:	4.91 s
+[8820]	loss:	0.10384	time lapsed:	0.96 s
+[8830]	loss:	0.11887	time lapsed:	0.97 s
+[8840]	loss:	0.09670	time lapsed:	0.96 s
+[8850]	loss:	0.11894	time lapsed:	0.97 s
+[8860]	loss:	0.09663	time lapsed:	0.97 s
+[8870]	loss:	0.09998	time lapsed:	0.96 s
+[8880]	loss:	0.10953	time lapsed:	0.97 s
+[8890]	loss:	0.11242	time lapsed:	0.96 s
+[8900]	loss:	0.10950	time lapsed:	0.96 s
+**********************************************************************
+[8900]	Test set	correct:	315	error:	85	precision:	0.787500
+**********************************************************************
+[8910]	loss:	0.11166	time lapsed:	4.89 s
+[8920]	loss:	0.12722	time lapsed:	0.96 s
+[8930]	loss:	0.10376	time lapsed:	0.96 s
+[8940]	loss:	0.10296	time lapsed:	0.97 s
+[8950]	loss:	0.11837	time lapsed:	0.96 s
+[8960]	loss:	0.12000	time lapsed:	0.96 s
+[8970]	loss:	0.10547	time lapsed:	0.97 s
+[8980]	loss:	0.09623	time lapsed:	0.96 s
+[8990]	loss:	0.10836	time lapsed:	0.96 s
+[9000]	loss:	0.11217	time lapsed:	0.97 s
+**********************************************************************
+[9000]	Test set	correct:	306	error:	94	precision:	0.765000
+**********************************************************************
+[9010]	loss:	0.12099	time lapsed:	4.91 s
+[9020]	loss:	0.10721	time lapsed:	0.96 s
+[9030]	loss:	0.09488	time lapsed:	0.97 s
+[9040]	loss:	0.11900	time lapsed:	0.97 s
+[9050]	loss:	0.09202	time lapsed:	0.97 s
+[9060]	loss:	0.11528	time lapsed:	0.97 s
+[9070]	loss:	0.10289	time lapsed:	0.97 s
+[9080]	loss:	0.09589	time lapsed:	0.97 s
+[9090]	loss:	0.09813	time lapsed:	0.97 s
+[9100]	loss:	0.09859	time lapsed:	0.97 s
+**********************************************************************
+[9100]	Test set	correct:	336	error:	64	precision:	0.840000
+**********************************************************************
+[9110]	loss:	0.11395	time lapsed:	4.99 s
+[9120]	loss:	0.10692	time lapsed:	0.97 s
+[9130]	loss:	0.10084	time lapsed:	0.97 s
+[9140]	loss:	0.10210	time lapsed:	0.97 s
+[9150]	loss:	0.11272	time lapsed:	0.96 s
+[9160]	loss:	0.10525	time lapsed:	0.97 s
+[9170]	loss:	0.09752	time lapsed:	0.97 s
+[9180]	loss:	0.11079	time lapsed:	0.96 s
+[9190]	loss:	0.09655	time lapsed:	0.97 s
+[9200]	loss:	0.11409	time lapsed:	0.97 s
+**********************************************************************
+[9200]	Test set	correct:	331	error:	69	precision:	0.827500
+**********************************************************************
+[9210]	loss:	0.09368	time lapsed:	4.89 s
+[9220]	loss:	0.10606	time lapsed:	0.97 s
+[9230]	loss:	0.10008	time lapsed:	0.96 s
+[9240]	loss:	0.10695	time lapsed:	0.96 s
+[9250]	loss:	0.11301	time lapsed:	0.97 s
+[9260]	loss:	0.09798	time lapsed:	0.97 s
+[9270]	loss:	0.11637	time lapsed:	0.98 s
+[9280]	loss:	0.09891	time lapsed:	0.98 s
+[9290]	loss:	0.10024	time lapsed:	0.97 s
+[9300]	loss:	0.09883	time lapsed:	0.97 s
+**********************************************************************
+[9300]	Test set	correct:	310	error:	90	precision:	0.775000
+**********************************************************************
+[9310]	loss:	0.11059	time lapsed:	4.80 s
+[9320]	loss:	0.13347	time lapsed:	0.97 s
+[9330]	loss:	0.08147	time lapsed:	0.97 s
+[9340]	loss:	0.11067	time lapsed:	0.97 s
+[9350]	loss:	0.09262	time lapsed:	0.97 s
+[9360]	loss:	0.09595	time lapsed:	0.97 s
+[9370]	loss:	0.08265	time lapsed:	0.96 s
+[9380]	loss:	0.11581	time lapsed:	0.96 s
+[9390]	loss:	0.10108	time lapsed:	0.97 s
+[9400]	loss:	0.10759	time lapsed:	0.96 s
+**********************************************************************
+[9400]	Test set	correct:	317	error:	83	precision:	0.792500
+**********************************************************************
+[9410]	loss:	0.09544	time lapsed:	4.95 s
+[9420]	loss:	0.09417	time lapsed:	0.96 s
+[9430]	loss:	0.10429	time lapsed:	0.96 s
+[9440]	loss:	0.12301	time lapsed:	0.96 s
+[9450]	loss:	0.11104	time lapsed:	0.96 s
+[9460]	loss:	0.11417	time lapsed:	0.96 s
+[9470]	loss:	0.10993	time lapsed:	0.96 s
+[9480]	loss:	0.11440	time lapsed:	0.96 s
+[9490]	loss:	0.09930	time lapsed:	0.96 s
+[9500]	loss:	0.07985	time lapsed:	0.96 s
+**********************************************************************
+[9500]	Test set	correct:	304	error:	96	precision:	0.760000
+**********************************************************************
+[9510]	loss:	0.10722	time lapsed:	4.84 s
+[9520]	loss:	0.09460	time lapsed:	0.97 s
+[9530]	loss:	0.09963	time lapsed:	0.97 s
+[9540]	loss:	0.08857	time lapsed:	0.96 s
+[9550]	loss:	0.09757	time lapsed:	0.96 s
+[9560]	loss:	0.10643	time lapsed:	0.96 s
+[9570]	loss:	0.09653	time lapsed:	0.96 s
+[9580]	loss:	0.11160	time lapsed:	0.96 s
+[9590]	loss:	0.09965	time lapsed:	0.96 s
+[9600]	loss:	0.09865	time lapsed:	0.96 s
+**********************************************************************
+[9600]	Test set	correct:	312	error:	88	precision:	0.780000
+**********************************************************************
+[9610]	loss:	0.10493	time lapsed:	4.88 s
+[9620]	loss:	0.08994	time lapsed:	0.96 s
+[9630]	loss:	0.10467	time lapsed:	0.96 s
+[9640]	loss:	0.09495	time lapsed:	0.96 s
+[9650]	loss:	0.11421	time lapsed:	0.96 s
+[9660]	loss:	0.11031	time lapsed:	0.96 s
+[9670]	loss:	0.10494	time lapsed:	0.96 s
+[9680]	loss:	0.09078	time lapsed:	0.96 s
+[9690]	loss:	0.08015	time lapsed:	0.96 s
+[9700]	loss:	0.10501	time lapsed:	0.96 s
+**********************************************************************
+[9700]	Test set	correct:	316	error:	84	precision:	0.790000
+**********************************************************************
+[9710]	loss:	0.09237	time lapsed:	4.86 s
+[9720]	loss:	0.10306	time lapsed:	0.96 s
+[9730]	loss:	0.09420	time lapsed:	0.96 s
+[9740]	loss:	0.11804	time lapsed:	0.96 s
+[9750]	loss:	0.09520	time lapsed:	0.97 s
+[9760]	loss:	0.10516	time lapsed:	0.96 s
+[9770]	loss:	0.11308	time lapsed:	0.97 s
+[9780]	loss:	0.09087	time lapsed:	0.96 s
+[9790]	loss:	0.11565	time lapsed:	0.96 s
+[9800]	loss:	0.09077	time lapsed:	0.96 s
+**********************************************************************
+[9800]	Test set	correct:	304	error:	96	precision:	0.760000
+**********************************************************************
+[9810]	loss:	0.09554	time lapsed:	4.88 s
+[9820]	loss:	0.10097	time lapsed:	0.96 s
+[9830]	loss:	0.08693	time lapsed:	0.96 s
+[9840]	loss:	0.10205	time lapsed:	0.96 s
+[9850]	loss:	0.09320	time lapsed:	0.96 s
+[9860]	loss:	0.10411	time lapsed:	0.96 s
+[9870]	loss:	0.09248	time lapsed:	0.96 s
+[9880]	loss:	0.10285	time lapsed:	0.96 s
+[9890]	loss:	0.10098	time lapsed:	0.96 s
+[9900]	loss:	0.08654	time lapsed:	0.96 s
+**********************************************************************
+[9900]	Test set	correct:	328	error:	72	precision:	0.820000
+**********************************************************************
+[9910]	loss:	0.10153	time lapsed:	4.81 s
+[9920]	loss:	0.10724	time lapsed:	0.96 s
+[9930]	loss:	0.09994	time lapsed:	0.96 s
+[9940]	loss:	0.09547	time lapsed:	0.96 s
+[9950]	loss:	0.09296	time lapsed:	0.97 s
+[9960]	loss:	0.09576	time lapsed:	0.96 s
+[9970]	loss:	0.10171	time lapsed:	0.97 s
+[9980]	loss:	0.09409	time lapsed:	0.97 s
+[9990]	loss:	0.09792	time lapsed:	0.96 s
+[10000]	loss:	0.09630	time lapsed:	0.97 s
+**********************************************************************
+[10000]	Test set	correct:	306	error:	94	precision:	0.765000
+**********************************************************************
+[10010]	loss:	0.08675	time lapsed:	5.05 s
+[10020]	loss:	0.09878	time lapsed:	0.97 s
+[10030]	loss:	0.09772	time lapsed:	0.96 s
+[10040]	loss:	0.09889	time lapsed:	0.96 s
+[10050]	loss:	0.09293	time lapsed:	0.95 s
+[10060]	loss:	0.09751	time lapsed:	0.96 s
+[10070]	loss:	0.07531	time lapsed:	0.95 s
+[10080]	loss:	0.10189	time lapsed:	0.95 s
+[10090]	loss:	0.09844	time lapsed:	0.95 s
+[10100]	loss:	0.07757	time lapsed:	0.95 s
+**********************************************************************
+[10100]	Test set	correct:	330	error:	70	precision:	0.825000
+**********************************************************************
+[10110]	loss:	0.09452	time lapsed:	4.83 s
+[10120]	loss:	0.08884	time lapsed:	0.95 s
+[10130]	loss:	0.10290	time lapsed:	0.95 s
+[10140]	loss:	0.09994	time lapsed:	0.95 s
+[10150]	loss:	0.09240	time lapsed:	0.95 s
+[10160]	loss:	0.08743	time lapsed:	0.96 s
+[10170]	loss:	0.11440	time lapsed:	0.95 s
+[10180]	loss:	0.08350	time lapsed:	0.96 s
+[10190]	loss:	0.08961	time lapsed:	0.96 s
+[10200]	loss:	0.10537	time lapsed:	0.96 s
+**********************************************************************
+[10200]	Test set	correct:	321	error:	79	precision:	0.802500
+**********************************************************************
+[10210]	loss:	0.08075	time lapsed:	5.06 s
+[10220]	loss:	0.11953	time lapsed:	0.96 s
+[10230]	loss:	0.09490	time lapsed:	0.97 s
+[10240]	loss:	0.10487	time lapsed:	0.97 s
+[10250]	loss:	0.08321	time lapsed:	0.97 s
+[10260]	loss:	0.10090	time lapsed:	0.97 s
+[10270]	loss:	0.10155	time lapsed:	0.97 s
+[10280]	loss:	0.10453	time lapsed:	0.96 s
+[10290]	loss:	0.08885	time lapsed:	0.97 s
+[10300]	loss:	0.09805	time lapsed:	0.96 s
+**********************************************************************
+[10300]	Test set	correct:	324	error:	76	precision:	0.810000
+**********************************************************************
+[10310]	loss:	0.08868	time lapsed:	4.81 s
+[10320]	loss:	0.09028	time lapsed:	0.97 s
+[10330]	loss:	0.09403	time lapsed:	0.97 s
+[10340]	loss:	0.07355	time lapsed:	0.96 s
+[10350]	loss:	0.10437	time lapsed:	0.97 s
+[10360]	loss:	0.08282	time lapsed:	0.97 s
+[10370]	loss:	0.07659	time lapsed:	0.96 s
+[10380]	loss:	0.09823	time lapsed:	0.97 s
+[10390]	loss:	0.09318	time lapsed:	0.96 s
+[10400]	loss:	0.08759	time lapsed:	0.96 s
+**********************************************************************
+[10400]	Test set	correct:	321	error:	79	precision:	0.802500
+**********************************************************************
+[10410]	loss:	0.09274	time lapsed:	4.90 s
+[10420]	loss:	0.09685	time lapsed:	0.96 s
+[10430]	loss:	0.09262	time lapsed:	0.96 s
+[10440]	loss:	0.08485	time lapsed:	0.96 s
+[10450]	loss:	0.09305	time lapsed:	0.96 s
+[10460]	loss:	0.08821	time lapsed:	0.97 s
+[10470]	loss:	0.09876	time lapsed:	0.97 s
+[10480]	loss:	0.09800	time lapsed:	0.96 s
+[10490]	loss:	0.09916	time lapsed:	0.97 s
+[10500]	loss:	0.10261	time lapsed:	0.97 s
+**********************************************************************
+[10500]	Test set	correct:	319	error:	81	precision:	0.797500
+**********************************************************************
+[10510]	loss:	0.10129	time lapsed:	5.06 s
+[10520]	loss:	0.08288	time lapsed:	0.96 s
+[10530]	loss:	0.08284	time lapsed:	0.96 s
+[10540]	loss:	0.09054	time lapsed:	0.96 s
+[10550]	loss:	0.09090	time lapsed:	0.96 s
+[10560]	loss:	0.09884	time lapsed:	0.96 s
+[10570]	loss:	0.08566	time lapsed:	0.96 s
+[10580]	loss:	0.07107	time lapsed:	0.96 s
+[10590]	loss:	0.10925	time lapsed:	0.96 s
+[10600]	loss:	0.08676	time lapsed:	0.96 s
+**********************************************************************
+[10600]	Test set	correct:	331	error:	69	precision:	0.827500
+**********************************************************************
+[10610]	loss:	0.08848	time lapsed:	4.82 s
+[10620]	loss:	0.09109	time lapsed:	0.96 s
+[10630]	loss:	0.08981	time lapsed:	0.96 s
+[10640]	loss:	0.09688	time lapsed:	0.96 s
+[10650]	loss:	0.08612	time lapsed:	0.96 s
+[10660]	loss:	0.08797	time lapsed:	0.96 s
+[10670]	loss:	0.08803	time lapsed:	0.96 s
+[10680]	loss:	0.09804	time lapsed:	0.96 s
+[10690]	loss:	0.09880	time lapsed:	0.96 s
+[10700]	loss:	0.09491	time lapsed:	0.96 s
+**********************************************************************
+[10700]	Test set	correct:	334	error:	66	precision:	0.835000
+**********************************************************************
+[10710]	loss:	0.08100	time lapsed:	4.97 s
+[10720]	loss:	0.09800	time lapsed:	0.96 s
+[10730]	loss:	0.08985	time lapsed:	0.96 s
+[10740]	loss:	0.09077	time lapsed:	0.96 s
+[10750]	loss:	0.07837	time lapsed:	0.96 s
+[10760]	loss:	0.09737	time lapsed:	0.96 s
+[10770]	loss:	0.10315	time lapsed:	0.96 s
+[10780]	loss:	0.09520	time lapsed:	0.96 s
+[10790]	loss:	0.08864	time lapsed:	0.96 s
+[10800]	loss:	0.09494	time lapsed:	0.96 s
+**********************************************************************
+[10800]	Test set	correct:	326	error:	74	precision:	0.815000
+**********************************************************************
+[10810]	loss:	0.08452	time lapsed:	4.93 s
+[10820]	loss:	0.10558	time lapsed:	0.96 s
+[10830]	loss:	0.09471	time lapsed:	0.96 s
+[10840]	loss:	0.10568	time lapsed:	0.96 s
+[10850]	loss:	0.08551	time lapsed:	0.96 s
+[10860]	loss:	0.10157	time lapsed:	0.96 s
+[10870]	loss:	0.07556	time lapsed:	0.96 s
+[10880]	loss:	0.09703	time lapsed:	0.96 s
+[10890]	loss:	0.08805	time lapsed:	0.97 s
+[10900]	loss:	0.08645	time lapsed:	0.96 s
+**********************************************************************
+[10900]	Test set	correct:	332	error:	68	precision:	0.830000
+**********************************************************************
+[10910]	loss:	0.09031	time lapsed:	5.03 s
+[10920]	loss:	0.09172	time lapsed:	0.96 s
+[10930]	loss:	0.11094	time lapsed:	0.96 s
+[10940]	loss:	0.10624	time lapsed:	0.96 s
+[10950]	loss:	0.07776	time lapsed:	0.96 s
+[10960]	loss:	0.11400	time lapsed:	0.96 s
+[10970]	loss:	0.08415	time lapsed:	0.96 s
+[10980]	loss:	0.09092	time lapsed:	0.96 s
+[10990]	loss:	0.09355	time lapsed:	0.96 s
+[11000]	loss:	0.09809	time lapsed:	0.96 s
+**********************************************************************
+[11000]	Test set	correct:	324	error:	76	precision:	0.810000
+**********************************************************************
+[11010]	loss:	0.08500	time lapsed:	4.86 s
+[11020]	loss:	0.11182	time lapsed:	0.96 s
+[11030]	loss:	0.08471	time lapsed:	0.96 s
+[11040]	loss:	0.07613	time lapsed:	0.96 s
+[11050]	loss:	0.07989	time lapsed:	0.97 s
+[11060]	loss:	0.08491	time lapsed:	0.97 s
+[11070]	loss:	0.09213	time lapsed:	0.96 s
+[11080]	loss:	0.07694	time lapsed:	0.97 s
+[11090]	loss:	0.11006	time lapsed:	0.96 s
+[11100]	loss:	0.08693	time lapsed:	0.97 s
+**********************************************************************
+[11100]	Test set	correct:	331	error:	69	precision:	0.827500
+**********************************************************************
+[11110]	loss:	0.09123	time lapsed:	4.97 s
+[11120]	loss:	0.08135	time lapsed:	0.96 s
+[11130]	loss:	0.08781	time lapsed:	0.96 s
+[11140]	loss:	0.08280	time lapsed:	0.96 s
+[11150]	loss:	0.08044	time lapsed:	0.96 s
+[11160]	loss:	0.10164	time lapsed:	0.97 s
+[11170]	loss:	0.08281	time lapsed:	0.96 s
+[11180]	loss:	0.10109	time lapsed:	0.96 s
+[11190]	loss:	0.08575	time lapsed:	0.96 s
+[11200]	loss:	0.07167	time lapsed:	0.97 s
+**********************************************************************
+[11200]	Test set	correct:	325	error:	75	precision:	0.812500
+**********************************************************************
+[11210]	loss:	0.07655	time lapsed:	4.81 s
+[11220]	loss:	0.07755	time lapsed:	0.96 s
+[11230]	loss:	0.11126	time lapsed:	0.96 s
+[11240]	loss:	0.08891	time lapsed:	0.96 s
+[11250]	loss:	0.08706	time lapsed:	0.96 s
+[11260]	loss:	0.09805	time lapsed:	0.96 s
+[11270]	loss:	0.10981	time lapsed:	0.96 s
+[11280]	loss:	0.08947	time lapsed:	0.96 s
+[11290]	loss:	0.08033	time lapsed:	0.96 s
+[11300]	loss:	0.06730	time lapsed:	0.96 s
+**********************************************************************
+[11300]	Test set	correct:	314	error:	86	precision:	0.785000
+**********************************************************************
+[11310]	loss:	0.07791	time lapsed:	4.91 s
+[11320]	loss:	0.08052	time lapsed:	0.96 s
+[11330]	loss:	0.08672	time lapsed:	0.96 s
+[11340]	loss:	0.08130	time lapsed:	0.96 s
+[11350]	loss:	0.06993	time lapsed:	0.96 s
+[11360]	loss:	0.08195	time lapsed:	0.96 s
+[11370]	loss:	0.08776	time lapsed:	0.96 s
+[11380]	loss:	0.08491	time lapsed:	0.96 s
+[11390]	loss:	0.10379	time lapsed:	0.96 s
+[11400]	loss:	0.09138	time lapsed:	0.96 s
+**********************************************************************
+[11400]	Test set	correct:	317	error:	83	precision:	0.792500
+**********************************************************************
+[11410]	loss:	0.07337	time lapsed:	4.85 s
+[11420]	loss:	0.09797	time lapsed:	0.96 s
+[11430]	loss:	0.08911	time lapsed:	0.96 s
+[11440]	loss:	0.09683	time lapsed:	0.96 s
+[11450]	loss:	0.09762	time lapsed:	0.96 s
+[11460]	loss:	0.09039	time lapsed:	0.96 s
+[11470]	loss:	0.09214	time lapsed:	0.96 s
+[11480]	loss:	0.08247	time lapsed:	0.96 s
+[11490]	loss:	0.09578	time lapsed:	0.96 s
+[11500]	loss:	0.08694	time lapsed:	0.96 s
+**********************************************************************
+[11500]	Test set	correct:	327	error:	73	precision:	0.817500
+**********************************************************************
+[11510]	loss:	0.08140	time lapsed:	4.91 s
+[11520]	loss:	0.08191	time lapsed:	0.96 s
+[11530]	loss:	0.10886	time lapsed:	0.96 s
+[11540]	loss:	0.10449	time lapsed:	0.96 s
+[11550]	loss:	0.10077	time lapsed:	0.96 s
+[11560]	loss:	0.08843	time lapsed:	0.96 s
+[11570]	loss:	0.07427	time lapsed:	0.96 s
+[11580]	loss:	0.08531	time lapsed:	0.98 s
+[11590]	loss:	0.08291	time lapsed:	0.96 s
+[11600]	loss:	0.08915	time lapsed:	0.96 s
+**********************************************************************
+[11600]	Test set	correct:	313	error:	87	precision:	0.782500
+**********************************************************************
+[11610]	loss:	0.10394	time lapsed:	5.13 s
+[11620]	loss:	0.09257	time lapsed:	0.96 s
+[11630]	loss:	0.08555	time lapsed:	0.96 s
+[11640]	loss:	0.06465	time lapsed:	0.96 s
+[11650]	loss:	0.09288	time lapsed:	0.96 s
+[11660]	loss:	0.08980	time lapsed:	0.97 s
+[11670]	loss:	0.09085	time lapsed:	0.96 s
+[11680]	loss:	0.08760	time lapsed:	0.96 s
+[11690]	loss:	0.08261	time lapsed:	0.96 s
+[11700]	loss:	0.09793	time lapsed:	0.97 s
+**********************************************************************
+[11700]	Test set	correct:	322	error:	78	precision:	0.805000
+**********************************************************************
+[11710]	loss:	0.08025	time lapsed:	4.92 s
+[11720]	loss:	0.08586	time lapsed:	0.97 s
+[11730]	loss:	0.07679	time lapsed:	0.96 s
+[11740]	loss:	0.09801	time lapsed:	0.96 s
+[11750]	loss:	0.09396	time lapsed:	0.96 s
+[11760]	loss:	0.09016	time lapsed:	0.97 s
+[11770]	loss:	0.07454	time lapsed:	0.97 s
+[11780]	loss:	0.07925	time lapsed:	0.97 s
+[11790]	loss:	0.08223	time lapsed:	0.97 s
+[11800]	loss:	0.08797	time lapsed:	0.97 s
+**********************************************************************
+[11800]	Test set	correct:	336	error:	64	precision:	0.840000
+**********************************************************************
+[11810]	loss:	0.08647	time lapsed:	4.95 s
+[11820]	loss:	0.06611	time lapsed:	0.97 s
+[11830]	loss:	0.07929	time lapsed:	0.97 s
+[11840]	loss:	0.07879	time lapsed:	0.97 s
+[11850]	loss:	0.08608	time lapsed:	0.97 s
+[11860]	loss:	0.09514	time lapsed:	0.97 s
+[11870]	loss:	0.08429	time lapsed:	0.96 s
+[11880]	loss:	0.08557	time lapsed:	0.97 s
+[11890]	loss:	0.09115	time lapsed:	0.98 s
+[11900]	loss:	0.08149	time lapsed:	0.98 s
+**********************************************************************
+[11900]	Test set	correct:	319	error:	81	precision:	0.797500
+**********************************************************************
+[11910]	loss:	0.08846	time lapsed:	4.96 s
+[11920]	loss:	0.08258	time lapsed:	0.96 s
+[11930]	loss:	0.08139	time lapsed:	0.96 s
+[11940]	loss:	0.09430	time lapsed:	0.96 s
+[11950]	loss:	0.08381	time lapsed:	0.96 s
+[11960]	loss:	0.07871	time lapsed:	0.96 s
+[11970]	loss:	0.08832	time lapsed:	0.96 s
+[11980]	loss:	0.09198	time lapsed:	0.96 s
+[11990]	loss:	0.09802	time lapsed:	0.97 s
+[12000]	loss:	0.10754	time lapsed:	0.96 s
+**********************************************************************
+[12000]	Test set	correct:	317	error:	83	precision:	0.792500
+**********************************************************************
+[12010]	loss:	0.06255	time lapsed:	4.87 s
+[12020]	loss:	0.08153	time lapsed:	0.97 s
+[12030]	loss:	0.08113	time lapsed:	0.97 s
+[12040]	loss:	0.07441	time lapsed:	0.97 s
+[12050]	loss:	0.07645	time lapsed:	0.97 s
+[12060]	loss:	0.07512	time lapsed:	0.97 s
+[12070]	loss:	0.09734	time lapsed:	0.97 s
+[12080]	loss:	0.08316	time lapsed:	0.97 s
+[12090]	loss:	0.06782	time lapsed:	0.97 s
+[12100]	loss:	0.08307	time lapsed:	0.97 s
+**********************************************************************
+[12100]	Test set	correct:	328	error:	72	precision:	0.820000
+**********************************************************************
+[12110]	loss:	0.07594	time lapsed:	4.99 s
+[12120]	loss:	0.07996	time lapsed:	0.96 s
+[12130]	loss:	0.09873	time lapsed:	0.96 s
+[12140]	loss:	0.07984	time lapsed:	0.96 s
+[12150]	loss:	0.08318	time lapsed:	0.96 s
+[12160]	loss:	0.08390	time lapsed:	0.96 s
+[12170]	loss:	0.08034	time lapsed:	0.96 s
+[12180]	loss:	0.06657	time lapsed:	0.96 s
+[12190]	loss:	0.08047	time lapsed:	0.97 s
+[12200]	loss:	0.09623	time lapsed:	0.96 s
+**********************************************************************
+[12200]	Test set	correct:	329	error:	71	precision:	0.822500
+**********************************************************************
+[12210]	loss:	0.09896	time lapsed:	5.07 s
+[12220]	loss:	0.08274	time lapsed:	0.97 s
+[12230]	loss:	0.09138	time lapsed:	0.96 s
+[12240]	loss:	0.08600	time lapsed:	0.96 s
+[12250]	loss:	0.07965	time lapsed:	0.96 s
+[12260]	loss:	0.07506	time lapsed:	0.96 s
+[12270]	loss:	0.07093	time lapsed:	0.96 s
+[12280]	loss:	0.09949	time lapsed:	0.96 s
+[12290]	loss:	0.08002	time lapsed:	0.98 s
+[12300]	loss:	0.07603	time lapsed:	0.96 s
+**********************************************************************
+[12300]	Test set	correct:	332	error:	68	precision:	0.830000
+**********************************************************************
+[12310]	loss:	0.10031	time lapsed:	4.82 s
+[12320]	loss:	0.09070	time lapsed:	0.96 s
+[12330]	loss:	0.08944	time lapsed:	0.96 s
+[12340]	loss:	0.08609	time lapsed:	0.96 s
+[12350]	loss:	0.08217	time lapsed:	0.97 s
+[12360]	loss:	0.08033	time lapsed:	0.96 s
+[12370]	loss:	0.07638	time lapsed:	0.96 s
+[12380]	loss:	0.08269	time lapsed:	0.96 s
+[12390]	loss:	0.08382	time lapsed:	0.96 s
+[12400]	loss:	0.08507	time lapsed:	0.96 s
+**********************************************************************
+[12400]	Test set	correct:	325	error:	75	precision:	0.812500
+**********************************************************************
+[12410]	loss:	0.07370	time lapsed:	4.93 s
+[12420]	loss:	0.07769	time lapsed:	0.97 s
+[12430]	loss:	0.06970	time lapsed:	0.97 s
+[12440]	loss:	0.07833	time lapsed:	0.96 s
+[12450]	loss:	0.09511	time lapsed:	0.96 s
+[12460]	loss:	0.08901	time lapsed:	0.96 s
+[12470]	loss:	0.09772	time lapsed:	0.96 s
+[12480]	loss:	0.08172	time lapsed:	0.97 s
+[12490]	loss:	0.08968	time lapsed:	0.97 s
+[12500]	loss:	0.07493	time lapsed:	0.97 s
+**********************************************************************
+[12500]	Test set	correct:	337	error:	63	precision:	0.842500
+**********************************************************************
+######################################################################
+final accuracy:  0.814875
