@@ -1,0 +1,9 @@
+For ReLU: 10 epochs
+    original: omniglot
+    finetuned: at&t
+For SiLU: 10 epochs
+    original: omniglot
+    finetuned: at&t
+For KAF: 10 epochs
+    original: omniglot
+    finetuned: at&t

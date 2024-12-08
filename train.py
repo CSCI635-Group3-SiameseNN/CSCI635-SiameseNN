@@ -12,6 +12,8 @@ import numpy as np
 from collections import deque
 import os
 from model import Siamese, SiameseATTReLU
+import random
+from collections import OrderedDict
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Train a Siamese network on the Omniglot or AT&T dataset.")
@@ -33,7 +35,9 @@ if __name__ == '__main__':
     parser.add_argument("--att_train_path", type=str, default="/home/ubuntu/project/att_faces", help="Path to AT&T training folder")
     parser.add_argument("--att_test_path", type=str, default="/home/ubuntu/project/att_faces", help="Path to AT&T testing folder")
     parser.add_argument("--dataset", type=str, default="omniglot", choices=["omniglot", "att"], help="Choose which dataset to train on")
-    parser.add_argument("--model_type", type=str, default="original", choices=["original", "fine_tunned"], help="Choose the model variant")
+    parser.add_argument("--model_type", type=str, default="original", choices=["original", "fine_tuned"], help="Choose the model variant")
+    parser.add_argument("--act_func", type=str, default="ReLU", choices=["ReLU", "SiLU", "KAF"], help="Choose the model variant")
+
 
     args = parser.parse_args()
 
@@ -104,8 +108,9 @@ if __name__ == '__main__':
             loss_val = 0
             time_start = time.time()
 
+        os.makedirs(args.model_path + f"/{args.model_type}_{args.dataset}_{args.act_func}/", exist_ok=True)
         if batch_id % args.save_every == 0:
-            model_save_path = os.path.join(args.model_path, 'model-inter-' + str(batch_id+1) + ".pt")
+            model_save_path = os.path.join(args.model_path + f"/{args.model_type}_{args.dataset}_{args.act_func}/", 'model-inter-' + str(batch_id+1) + ".pt")
             torch.save(net.state_dict(), model_save_path)
 
         if batch_id % args.test_every == 0:
@@ -135,13 +140,15 @@ if __name__ == '__main__':
     print("#"*70)
     print("final accuracy: ", acc)
 
+    os.makedirs(f"./plots/{args.model_type}_{args.dataset}_{args.act_func}", exist_ok=True)
+
     # Plotting the training loss over iterations
     plt.figure()
     plt.plot(train_loss)  # train_loss is a list of loss values per iteration
     plt.xlabel('Iteration')
     plt.ylabel('Training Loss')
     plt.title('Training Loss Over Time')
-    plt.savefig('training_loss_plot.png')
+    plt.savefig(f'./plots/{args.model_type}_{args.dataset}_{args.act_func}/training_loss_plot.png')
     plt.close()
 
     # Plotting the test accuracy over test intervals
@@ -153,5 +160,80 @@ if __name__ == '__main__':
         plt.xlabel('Iteration')
         plt.ylabel('Test Accuracy')
         plt.title('Test Accuracy Over Time')
-        plt.savefig('test_accuracy_plot.png')
+        plt.savefig(f'./plots/{args.model_type}_{args.dataset}_{args.act_func}/test_accuracy_plot.png')
         plt.close()
+
+    # Define transform
+    data_transform = transforms.ToTensor()
+
+    # Load the appropriate test dataset
+    if args.dataset == "omniglot":
+        test_set = OmniglotTest(args.test_path, transform=data_transform, times=args.times, way=args.way)
+    else:
+        test_set = ATTTest(args.att_test_path, transform=data_transform, times=args.times, way=args.way)
+
+    net.eval()
+
+    datas = test_set.datas
+    num_classes = test_set.num_classes
+
+    def get_random_image_from_class(c):
+        return random.choice(datas[c])
+
+    # Create 5 same-class pairs
+    same_class_pairs = []
+    for _ in range(5):
+        c = random.randint(0, num_classes - 1)
+        img1 = get_random_image_from_class(c)
+        img2 = get_random_image_from_class(c)
+        same_class_pairs.append((img1, img2, 1.0))
+
+    # Create 5 different-class pairs
+    diff_class_pairs = []
+    for _ in range(5):
+        c1 = random.randint(0, num_classes - 1)
+        c2 = random.randint(0, num_classes - 1)
+        while c1 == c2:
+            c2 = random.randint(0, num_classes - 1)
+        img1 = get_random_image_from_class(c1)
+        img2 = get_random_image_from_class(c2)
+        diff_class_pairs.append((img1, img2, 0.0))
+
+    # Combine them
+    all_pairs = same_class_pairs + diff_class_pairs
+    random.shuffle(all_pairs)
+
+    print("Testing on 10 random examples (5 same-class pairs and 5 different-class pairs):")
+    with torch.no_grad():
+        for i, (img1, img2, label) in enumerate(all_pairs, start=1):
+            img1_t = data_transform(img1).unsqueeze(0).to(device)
+            img2_t = data_transform(img2).unsqueeze(0).to(device)
+
+            output = net(img1_t, img2_t).cpu().numpy()
+            # Apply sigmoid to interpret as probability
+            prob = 1 / (1 + np.exp(-output))
+            pred_label = 1 if prob > 0.5 else 0
+
+            print(f"Pair {i}: True Label={label}, Model output={output[0][0]:.4f}, Probability={prob[0][0]:.4f}, Predicted={pred_label}")
+
+            # Convert tensors to numpy for visualization
+            img1_np = img1_t.squeeze().cpu().numpy()
+            img2_np = img2_t.squeeze().cpu().numpy()
+
+            # Plot both images side by side
+            fig, axes = plt.subplots(1, 2, figsize=(4, 2))
+            axes[0].imshow(img1_np, cmap='gray')
+            axes[0].set_title("Image 1")
+            axes[0].axis('off')
+
+            axes[1].imshow(img2_np, cmap='gray')
+            axes[1].set_title("Image 2")
+            axes[1].axis('off')
+
+            fig.suptitle(f"True: {label}, Pred: {pred_label}, Prob: {prob[0][0]:.4f}")
+            plt.tight_layout()
+
+            os.makedirs(f"./results/{args.model_type}_{args.dataset}_{args.act_func}", exist_ok=True)
+            # Save the figure instead of showing it
+            plt.savefig(f"results/{args.model_type}_{args.dataset}_{args.act_func}/pair_{i}.png")
+            plt.close()
