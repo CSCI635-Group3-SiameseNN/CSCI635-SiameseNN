@@ -64,6 +64,7 @@ class OmniglotTrain(Dataset):
         return image1, image2, torch.from_numpy(np.array([label], dtype=np.float32))
 
 
+
 class OmniglotTest(Dataset):
 
     def __init__(self, dataPath, transform=None, times=200, way=20):
@@ -113,6 +114,112 @@ class OmniglotTest(Dataset):
             img2 = self.transform(img2)
         return img1, img2
 
+class ATTTrain(Dataset):
+    """
+    Load the AT&T face dataset (ORL) into memory similarly to Omniglot.
+    Dataset structure example:
+    dataPath/s1/1.pgm ... dataPath/s1/10.pgm
+    ...
+    dataPath/s40/1.pgm ... dataPath/s40/10.pgm
+    """
+    def __init__(self, dataPath, transform=None):
+        super(ATTTrain, self).__init__()
+        np.random.seed(0)
+        self.transform = transform
+        self.datas, self.num_classes = self.loadToMem(dataPath)
+
+    def loadToMem(self, dataPath):
+        print("Loading AT&T training dataset to memory...")
+        datas = {}
+        idx = 0
+        # Each subfolder represents a person
+        for person_dir in sorted(os.listdir(dataPath)):
+            person_path = os.path.join(dataPath, person_dir)
+            if os.path.isdir(person_path):
+                datas[idx] = []
+                for img_file in sorted(os.listdir(person_path)):
+                    filePath = os.path.join(person_path, img_file)
+                    if os.path.isfile(filePath):
+                        datas[idx].append(Image.open(filePath).convert('L'))
+                idx += 1
+        print("Finished loading AT&T training dataset to memory")
+        return datas, idx
+
+    def __len__(self):
+        # Large number for random pairing similar to Omniglot
+        return 21000000
+
+    def __getitem__(self, index):
+        if index % 2 == 1:
+            label = 1.0
+            idx1 = random.randint(0, self.num_classes - 1)
+            image1 = random.choice(self.datas[idx1])
+            image2 = random.choice(self.datas[idx1])
+        else:
+            label = 0.0
+            idx1 = random.randint(0, self.num_classes - 1)
+            idx2 = random.randint(0, self.num_classes - 1)
+            while idx1 == idx2:
+                idx2 = random.randint(0, self.num_classes - 1)
+            image1 = random.choice(self.datas[idx1])
+            image2 = random.choice(self.datas[idx2])
+
+        if self.transform:
+            image1 = self.transform(image1)
+            image2 = self.transform(image2)
+        return image1, image2, torch.from_numpy(np.array([label], dtype=np.float32))
+
+
+class ATTTest(Dataset):
+    """
+    Similar structure to OmniglotTest, but for AT&T.
+    """
+    def __init__(self, dataPath, transform=None, times=200, way=20):
+        np.random.seed(1)
+        super(ATTTest, self).__init__()
+        self.transform = transform
+        self.times = times
+        self.way = way
+        self.img1 = None
+        self.c1 = None
+        self.datas, self.num_classes = self.loadToMem(dataPath)
+
+    def loadToMem(self, dataPath):
+        print("Loading AT&T test dataset to memory...")
+        datas = {}
+        idx = 0
+        for person_dir in sorted(os.listdir(dataPath)):
+            person_path = os.path.join(dataPath, person_dir)
+            if os.path.isdir(person_path):
+                datas[idx] = []
+                for img_file in sorted(os.listdir(person_path)):
+                    filePath = os.path.join(person_path, img_file)
+                    if os.path.isfile(filePath):
+                        datas[idx].append(Image.open(filePath).convert('L'))
+                idx += 1
+        print("Finished loading AT&T test dataset to memory")
+        return datas, idx
+
+    def __len__(self):
+        return self.times * self.way
+
+    def __getitem__(self, index):
+        idx = index % self.way
+        if idx == 0:
+            self.c1 = random.randint(0, self.num_classes - 1)
+            self.img1 = random.choice(self.datas[self.c1])
+            img2 = random.choice(self.datas[self.c1])
+        else:
+            c2 = random.randint(0, self.num_classes - 1)
+            while self.c1 == c2:
+                c2 = random.randint(0, self.num_classes - 1)
+            img2 = random.choice(self.datas[c2])
+
+        if self.transform:
+            img1 = self.transform(self.img1)
+            img2 = self.transform(img2)
+        return img1, img2
+    
 
 # test
 if __name__=='__main__':
