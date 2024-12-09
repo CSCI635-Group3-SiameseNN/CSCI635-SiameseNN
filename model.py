@@ -9,16 +9,19 @@ class Siamese(nn.Module):
         super(Siamese, self).__init__()
         self.conv = nn.Sequential(
             nn.Conv2d(1, 64, 10),  # 64@96*96
-            nn.SiLU(inplace=True),
+            KAF(96,30),
             nn.MaxPool2d(2),  # 64@48*48
             nn.Conv2d(64, 128, 7),
-            nn.SiLU(inplace=True),
+            KAF(42,30),
+            # nn.SiLU(inplace=True),
             nn.MaxPool2d(2),   # 128@21*21
             nn.Conv2d(128, 128, 4),
-            nn.SiLU(inplace=True),
+            KAF(18,30),
+            # nn.SiLU(inplace=True),
             nn.MaxPool2d(2), # 128@9*9
             nn.Conv2d(128, 256, 4),
-            nn.SiLU(inplace=True),
+            KAF(6,30)
+            # nn.SiLU(inplace=True),
         )
         self.liner = nn.Sequential(nn.Linear(9216, 4096), nn.Sigmoid())
         self.out = nn.Linear(4096, 1)
@@ -43,17 +46,17 @@ class SiameseATTReLU(nn.Module):
         # Layer 1: Conv1, Conv2, Conv3 each followed by ReLU and MaxPool
         self.conv1 = nn.Sequential(
             nn.Conv2d(1, 4, kernel_size=3, padding=1),
-            nn.SiLU(inplace=True),
+            KAF(92,29),
             nn.MaxPool2d(2)
         )
         self.conv2 = nn.Sequential(
             nn.Conv2d(4, 8, kernel_size=3, padding=1),
-            nn.SiLU(inplace=True),
+            KAF(46,29),
             nn.MaxPool2d(2)
         )
         self.conv3 = nn.Sequential(
             nn.Conv2d(8, 8, kernel_size=3, padding=1),
-            nn.SiLU(inplace=True),
+            KAF(23,29),
             nn.MaxPool2d(2)
         )
 
@@ -61,19 +64,19 @@ class SiameseATTReLU(nn.Module):
         # Approx size after conv3: 8 x 11 x 14 = 1232 features (flattened)
         self.fc1 = nn.Sequential(
             nn.Linear(1232, 80000),
-            nn.SiLU(inplace=True)
+            KAF(80000,29),
         )
         self.fc2 = nn.Sequential(
             nn.Linear(80000, 500),
-            nn.SiLU(inplace=True)
+            KAF(500,29),
         )
         self.fc3 = nn.Sequential(
             nn.Linear(500, 250),
-            nn.SiLU(inplace=True)
+            KAF(250,29),
         )
         self.fc4 = nn.Sequential(
             nn.Linear(250, 5),
-            nn.SiLU(inplace=True)
+            KAF(5,29),
         )
         self.out = nn.Linear(5, 1)
 
